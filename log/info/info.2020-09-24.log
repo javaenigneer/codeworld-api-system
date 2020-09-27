@@ -1,0 +1,143 @@
+2020-09-24 16:57:47 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 21752 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-24 16:57:47 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-24 16:57:51 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-24 16:57:51 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 16:57:51 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 689ms. Found 0 Redis repository interfaces.
+2020-09-24 16:57:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-24 16:57:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$773e6614] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-24 16:57:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-24 16:57:54 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-24 16:57:55 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-24 16:57:55 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-24 16:57:55 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-24 16:57:55 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-24 16:57:56 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-24 16:57:56 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 8753 ms
+2020-09-24 16:57:56 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-24 16:57:56 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-24 16:57:56 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-24 16:57:56 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-09-24 16:57:56 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-09-24 16:57:56 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-09-24 16:57:56 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-09-24 16:57:56 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-24 16:57:56 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-24 16:57:58 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-09-24 16:57:58 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-24 16:57:58 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-09-24 16:57:58 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-09-24 16:57:58 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-09-24 16:57:58 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51600937878169'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-09-24 16:57:58 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-09-24 16:57:58 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-09-24 16:57:58 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@71e7830a
+2020-09-24 16:57:58 INFO  main p6spy 2020-09-24 16:57:58 | 耗时 3 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-09-24 16:58:01 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 16:58:01 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 16:58:02 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-24 16:58:02 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-24 16:58:02 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-24 16:58:02 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-24 16:58:02 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-24 16:58:03 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-09-24 16:58:03 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 18.544 seconds (JVM running for 32.963)
+2020-09-24 16:58:04 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-09-24 16:58:04 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-09-24 16:58:04 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51600850725745"'s failed in-progress jobs.
+2020-09-24 16:58:04 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51600937878169 started.
+2020-09-24 16:58:18 INFO  http-nio-8888-exec-1 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 16:58:18 INFO  http-nio-8888-exec-1 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 129ms. Found 0 Redis repository interfaces.
+2020-09-24 16:58:18 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 16:58:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-24 16:58:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 12 ms
+2020-09-24 17:02:25 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-24 17:02:25 INFO  http-nio-8888-exec-2 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 17:02:25 INFO  http-nio-8888-exec-2 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 132ms. Found 0 Redis repository interfaces.
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllLogUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: loginUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: treeMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteRoleUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleNoParamUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getRoleMenuUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateRoleUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addUserUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteUserUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUserUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserByNameUsingGET_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserInfoUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserUsingPOST_1
+2020-09-24 17:02:27 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserStatusUsingPOST_1
+2020-09-24 17:02:52 INFO  http-nio-8888-exec-9 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 17:02:52 INFO  http-nio-8888-exec-9 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 228ms. Found 0 Redis repository interfaces.
+2020-09-24 17:03:43 INFO  http-nio-8888-exec-4 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 17:03:43 INFO  http-nio-8888-exec-4 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 215ms. Found 0 Redis repository interfaces.
+2020-09-24 17:03:44 INFO  http-nio-8888-exec-4 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteJobUsingPOST_1
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllJobUsingPOST_1
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateJobStatusUsingPOST_1
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllLogUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: loginUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: treeMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteRoleUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleNoParamUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getRoleMenuUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateRoleUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addUserUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteUserUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUserUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserByNameUsingGET_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserInfoUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserUsingPOST_2
+2020-09-24 17:03:45 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserStatusUsingPOST_2
+2020-09-24 17:04:01 INFO  http-nio-8888-exec-10 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 17:04:01 INFO  http-nio-8888-exec-10 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 149ms. Found 0 Redis repository interfaces.
+2020-09-24 17:04:02 INFO  http-nio-8888-exec-10 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteJobUsingPOST_2
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllJobUsingPOST_2
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateJobStatusUsingPOST_2
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllLogUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: loginUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: treeMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addRoleMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteRoleUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRoleNoParamUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getRoleMenuUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateRoleUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: addUserUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: deleteUserUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUserUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserByNameUsingGET_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getUserInfoUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserUsingPOST_3
+2020-09-24 17:04:22 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateUserStatusUsingPOST_3
+2020-09-24 17:24:48 INFO  http-nio-8888-exec-9 org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-24 17:24:48 INFO  http-nio-8888-exec-9 org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 262ms. Found 0 Redis repository interfaces.

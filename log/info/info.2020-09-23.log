@@ -1,0 +1,314 @@
+2020-09-23 08:40:12 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 16944 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-23 08:40:12 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-23 08:40:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 08:40:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 08:40:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 331ms. Found 0 Redis repository interfaces.
+2020-09-23 08:40:17 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 08:40:17 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3c43313f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 08:40:17 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 08:40:17 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 08:40:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-23 08:40:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-23 08:40:18 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-23 08:40:18 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-23 08:40:18 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-23 08:40:18 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 6387 ms
+2020-09-23 08:40:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-23 08:40:19 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-23 08:40:19 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-23 08:40:19 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-09-23 08:40:19 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-09-23 08:40:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-09-23 08:40:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-09-23 08:40:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-23 08:40:19 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-23 08:40:20 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-09-23 08:40:20 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-23 08:40:20 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-09-23 08:40:20 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-09-23 08:40:20 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-09-23 08:40:20 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51600821620251'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-09-23 08:40:20 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-09-23 08:40:20 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-09-23 08:40:20 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7a30e30b
+2020-09-23 08:40:20 INFO  main p6spy 2020-09-23 08:40:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-09-23 08:40:22 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-23 08:40:22 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 08:40:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-23 08:40:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-23 08:40:23 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-23 08:40:23 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-23 08:40:23 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-23 08:40:24 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-09-23 08:40:24 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 13.773 seconds (JVM running for 25.062)
+2020-09-23 08:40:25 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-09-23 08:40:25 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-09-23 08:40:25 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51600763032309"'s failed in-progress jobs.
+2020-09-23 08:40:25 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51600821620251 started.
+2020-09-23 09:27:21 INFO  rebel-change-detector-thread org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 09:27:22 INFO  rebel-change-detector-thread org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 837ms. Found 0 Redis repository interfaces.
+2020-09-23 09:27:29 INFO  rebel-change-detector-thread p6spy 2020-09-23 09:27:29 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-09-23 15:20:51 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 21292 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-23 15:20:51 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: pro
+2020-09-23 15:20:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:20:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:20:54 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 282ms. Found 0 Redis repository interfaces.
+2020-09-23 15:20:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:20:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$bdd8c8cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:20:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:20:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:20:56 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-23 15:20:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-23 15:20:56 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-23 15:20:56 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-23 15:20:56 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-23 15:20:56 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4764 ms
+2020-09-23 15:20:56 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-23 15:20:57 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-23 15:20:57 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-09-23 15:20:58 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-09-23 15:20:58 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-09-23 15:20:58 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-09-23 15:20:58 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-23 15:20:58 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-23 15:20:58 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-09-23 15:20:58 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-23 15:20:58 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-09-23 15:20:58 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-09-23 15:20:58 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-09-23 15:20:58 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51600845658776'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-09-23 15:20:58 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-09-23 15:20:58 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-09-23 15:20:58 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@e97f115
+2020-09-23 15:21:00 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-23 15:21:00 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:21:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-23 15:21:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-23 15:21:00 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-23 15:21:00 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-23 15:21:01 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-23 15:21:01 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-09-23 15:21:01 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 11.008 seconds (JVM running for 18.686)
+2020-09-23 15:21:02 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-09-23 15:21:04 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51600845658776 started.
+2020-09-23 15:21:15 INFO  http-nio-8888-exec-1 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-23 15:21:15 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-23 15:21:15 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-23 15:21:15 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2020-09-23 15:21:57 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 19324 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-23 15:21:57 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-23 15:22:00 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 15:22:00 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 15:22:01 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 266ms. Found 0 Redis repository interfaces.
+2020-09-23 15:22:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:22:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$12a8c860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:22:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:22:02 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 15:22:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-23 15:22:03 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-23 15:22:03 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-23 15:22:03 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-23 15:22:03 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-23 15:22:03 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 6008 ms
+2020-09-23 15:22:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-23 15:22:03 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-23 15:22:03 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-23 15:22:03 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-09-23 15:22:03 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-09-23 15:22:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-09-23 15:22:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-09-23 15:22:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-23 15:22:03 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-23 15:22:04 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-09-23 15:22:04 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-23 15:22:04 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-09-23 15:22:04 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-09-23 15:22:04 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-09-23 15:22:04 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51600845724702'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-09-23 15:22:04 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-09-23 15:22:04 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-09-23 15:22:04 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@65db548
+2020-09-23 15:22:04 INFO  main p6spy 2020-09-23 15:22:04 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-09-23 15:22:06 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-23 15:22:06 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 15:22:07 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-23 15:22:07 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-23 15:22:07 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-23 15:22:07 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-23 15:22:07 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-23 15:22:07 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-09-23 15:22:07 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 12.667 seconds (JVM running for 20.584)
+2020-09-23 15:22:08 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-09-23 15:22:08 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-09-23 15:22:08 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51600821620251"'s failed in-progress jobs.
+2020-09-23 15:22:08 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51600845724702 started.
+2020-09-23 15:22:18 INFO  http-nio-8888-exec-1 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-23 15:22:18 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-23 15:22:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-23 15:22:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 19 ms
+2020-09-23 15:22:46 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 15:22:46 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_log;
+2020-09-23 15:22:46 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 15:22:46 | 耗时 2 ms | SQL 语句：
+select * from codeworld_log order by t_log_create_Time DESC;
+2020-09-23 15:22:46 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 15:22:46 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 818727, NULL, '获取全部日志', 95, '/system-log/get-all-log', ' logSearchVO: LogSearchVO(page=0, limit=0)', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T15:22:46.069+0800' );;
+2020-09-23 16:45:20 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 17996 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-23 16:45:20 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-23 16:45:22 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-23 16:45:22 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-23 16:45:22 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 208ms. Found 0 Redis repository interfaces.
+2020-09-23 16:45:23 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 16:45:23 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$79545edc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 16:45:23 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 16:45:23 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-23 16:45:24 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-23 16:45:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-23 16:45:24 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-23 16:45:24 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-23 16:45:24 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-23 16:45:24 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3924 ms
+2020-09-23 16:45:24 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-23 16:45:24 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-23 16:45:25 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-23 16:45:25 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-09-23 16:45:25 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-09-23 16:45:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-09-23 16:45:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-09-23 16:45:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-23 16:45:25 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-23 16:45:25 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-09-23 16:45:25 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-09-23 16:45:25 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-09-23 16:45:25 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-09-23 16:45:25 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-09-23 16:45:25 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51600850725745'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-09-23 16:45:25 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-09-23 16:45:25 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-09-23 16:45:25 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@74bbc273
+2020-09-23 16:45:25 INFO  main p6spy 2020-09-23 16:45:25 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-09-23 16:45:27 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-23 16:45:27 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 16:45:27 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-23 16:45:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-23 16:45:27 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-23 16:45:27 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-23 16:45:27 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-23 16:45:28 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-09-23 16:45:28 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 9.159 seconds (JVM running for 16.714)
+2020-09-23 16:45:29 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-09-23 16:45:29 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-09-23 16:45:29 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51600845724702"'s failed in-progress jobs.
+2020-09-23 16:45:29 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51600850725745 started.
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-2 p6spy 2020-09-23 16:46:06 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = 'admin';
+2020-09-23 16:46:06 INFO  http-nio-8888-exec-2 p6spy 2020-09-23 16:46:06 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 819549, NULL, '用户登录', 52, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=admin, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@400c89ca response: org.apache.catalina.connector.ResponseFacade@69f9b770', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:46:06.885+0800' );;
+2020-09-23 16:46:10 INFO  http-nio-8888-exec-3 p6spy 2020-09-23 16:46:10 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:46:10 INFO  http-nio-8888-exec-3 p6spy 2020-09-23 16:46:10 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 241544, NULL, '用户登录', 35, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@400c89ca response: org.apache.catalina.connector.ResponseFacade@69f9b770', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:46:10.354+0800' );;
+2020-09-23 16:46:18 INFO  http-nio-8888-exec-7 p6spy 2020-09-23 16:46:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:46:18 INFO  http-nio-8888-exec-7 p6spy 2020-09-23 16:46:18 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 628727, '1111', '用户登录', 35, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@6c7891fb response: org.apache.catalina.connector.ResponseFacade@36ff50d2', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:46:18.556+0800' );;
+2020-09-23 16:47:01 INFO  http-nio-8888-exec-1 p6spy 2020-09-23 16:47:01 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:47:01 INFO  http-nio-8888-exec-1 p6spy 2020-09-23 16:47:01 | 耗时 11 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 391720, '1111', '用户登录', 6, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@6c7891fb response: org.apache.catalina.connector.ResponseFacade@36ff50d2', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:47:01.947+0800' );;
+2020-09-23 16:47:03 INFO  http-nio-8888-exec-6 p6spy 2020-09-23 16:47:03 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:47:03 INFO  http-nio-8888-exec-6 p6spy 2020-09-23 16:47:03 | 耗时 11 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 385949, '1111', '用户登录', 4, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@400c89ca response: org.apache.catalina.connector.ResponseFacade@69f9b770', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:47:03.729+0800' );;
+2020-09-23 16:47:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-23 16:47:04 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:47:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-23 16:47:04 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 530558, '1111', '用户登录', 5, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@11b696d9 response: org.apache.catalina.connector.ResponseFacade@572f4f1f', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:47:04.541+0800' );;
+2020-09-23 16:47:05 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:47:05 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:47:05 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:47:05 | 耗时 12 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 494, '1111', '用户登录', 5, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@7a1eef8c response: org.apache.catalina.connector.ResponseFacade@2403e467', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:47:05.245+0800' );;
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-6 p6spy 2020-09-23 16:49:24 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-6 p6spy 2020-09-23 16:49:24 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 130907, '1111', '用户登录', 8, '/system-user/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: org.apache.catalina.connector.RequestFacade@400c89ca response: org.apache.catalina.connector.ResponseFacade@69f9b770', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:49:24.654+0800' );;
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:49:24 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:49:24 | 耗时 2 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:49:24 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-23 16:49:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:49:24 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 915774, '1111', '获取用户信息', 167, '/system-user/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDA4NTA5NjgsInVzZXJuYW1lIjoiMTExMSJ9.OT8K50PILHa-YYiTiToXe7dYH2iuzLUE-4XuzlwlPBE) request: org.apache.catalina.connector.RequestFacade@400c89ca response: org.apache.catalina.connector.ResponseFacade@69f9b770', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:49:24.846+0800' );;
+2020-09-23 16:49:32 INFO  http-nio-8888-exec-10 com.codeworld.fc.system.user.service.impl.UserServiceImpl 数据：UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)
+2020-09-23 16:49:32 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 16:49:32 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-23 16:49:32 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 16:49:32 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-23 16:49:32 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 16:49:32 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 77877, '1111', '获取全部用户', 76, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:49:32.093+0800' );;
+2020-09-23 16:50:32 INFO  http-nio-8888-exec-2 p6spy 2020-09-23 16:50:32 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_log;
+2020-09-23 16:50:32 INFO  http-nio-8888-exec-2 p6spy 2020-09-23 16:50:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_log order by t_log_create_Time DESC LIMIT 10 ;
+2020-09-23 16:50:32 INFO  http-nio-8888-exec-2 p6spy 2020-09-23 16:50:32 | 耗时 13 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 95737, '1111', '获取全部日志', 18, '/system-log/get-all-log', ' logSearchVO: LogSearchVO(page=1, limit=10)', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:50:32.847+0800' );;
+2020-09-23 16:55:39 INFO  http-nio-8888-exec-10 p6spy 2020-09-23 16:55:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-23 16:55:41 INFO  http-nio-8888-exec-7 p6spy 2020-09-23 16:55:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-23 16:55:41 INFO  http-nio-8888-exec-1 p6spy 2020-09-23 16:55:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-23 16:55:41 INFO  http-nio-8888-exec-1 p6spy 2020-09-23 16:55:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-23 16:55:42 INFO  http-nio-8888-exec-4 com.codeworld.fc.system.user.service.impl.UserServiceImpl 数据：UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)
+2020-09-23 16:55:42 INFO  http-nio-8888-exec-4 p6spy 2020-09-23 16:55:42 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-23 16:55:42 INFO  http-nio-8888-exec-4 p6spy 2020-09-23 16:55:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-23 16:55:42 INFO  http-nio-8888-exec-4 p6spy 2020-09-23 16:55:42 | 耗时 11 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 959643, '1111', '获取全部用户', 7, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:55:42.673+0800' );;
+2020-09-23 16:55:44 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:55:44 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_job;
+2020-09-23 16:55:44 INFO  http-nio-8888-exec-9 p6spy 2020-09-23 16:55:44 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 267238, '1111', '获取全部任务', 18, '/system-job/get-all-job', ' jobSearchVO: JobSearchVO(beanName=null, methodName=null, status=null, createTime=null, updateTime=null)', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', '2020-09-23T16:55:44.883+0800' );;
+2020-09-23 16:57:01 INFO  http-nio-8888-exec-7 p6spy 2020-09-23 16:57:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;

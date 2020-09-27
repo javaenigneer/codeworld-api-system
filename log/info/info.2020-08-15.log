@@ -1,0 +1,469 @@
+2020-08-15 09:22:29 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 2336 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 09:22:29 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 09:22:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:22:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9fc3ee8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:22:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:22:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:22:33 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 09:22:33 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 09:22:33 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 09:22:33 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 09:22:34 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 09:22:34 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4532 ms
+2020-08-15 09:22:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 09:22:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 09:22:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 09:22:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 09:22:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 09:22:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 09:22:35 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 09:22:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 09:22:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 09:22:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 09:22:36 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 09:22:36 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 09:22:36 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 09:22:36 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 8.77 seconds (JVM running for 17.416)
+2020-08-15 09:26:57 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 09:26:57 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 09:26:57 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 29 ms
+2020-08-15 09:27:20 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 09:27:20 | 耗时 4 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:27:28 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 09:27:28 | 耗时 2 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 5901029, '', '', '', 0, '2020-08-15T09:27:28.348+0800', '2020-08-15T09:27:28.348+0800' );;
+2020-08-15 09:27:28 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 09:27:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:33:10 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 10040 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 09:33:10 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 09:33:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:33:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$66fd1e8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:33:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:33:13 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 09:33:13 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 09:33:13 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 09:33:13 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 09:33:13 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 09:33:13 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 09:33:13 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2865 ms
+2020-08-15 09:33:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 09:33:14 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 09:33:14 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 09:33:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 09:33:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 09:33:14 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 09:33:15 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 09:33:15 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 09:33:15 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 09:33:15 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 09:33:15 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 09:33:15 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 09:33:15 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 09:33:16 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 6.479 seconds (JVM running for 13.216)
+2020-08-15 09:33:28 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 09:33:28 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 09:33:28 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 13 ms
+2020-08-15 09:33:29 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 09:33:29 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:33:32 INFO  http-nio-8888-exec-6 p6spy 2020-08-15 09:33:32 | 耗时 2 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 5901029;
+2020-08-15 09:33:36 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 09:33:36 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:34:29 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 09:34:29 | 耗时 1 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 6322201, '', '1692454247@qq.com', '', 0, '2020-08-15T09:34:29.519+0800', '2020-08-15T09:34:29.519+0800' );;
+2020-08-15 09:34:29 INFO  http-nio-8888-exec-6 p6spy 2020-08-15 09:34:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:37:10 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 09:37:10 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:37:29 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 09:37:29 | 耗时 1 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 920638, '11', NULL, '1', 0, '2020-08-15T09:37:29.447+0800', '2020-08-15T09:37:29.447+0800' );;
+2020-08-15 09:37:29 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 09:37:29 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:38:20 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 09:38:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:38:44 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 09:38:44 | 耗时 1 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 2374193, '111', '1692454247@qq.com', '111', 0, '2020-08-15T09:38:43.994+0800', '2020-08-15T09:38:43.994+0800' );;
+2020-08-15 09:38:44 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 09:38:44 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:38:50 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 09:38:50 | 耗时 2 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 920638;
+2020-08-15 09:38:51 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 09:38:51 | 耗时 11 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 2374193;
+2020-08-15 09:38:52 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 09:38:52 | 耗时 11 ms | SQL 语句：
+delete from codeworld_user where t_user_id = 6322201;
+2020-08-15 09:39:02 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 09:39:02 | 耗时 2 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 6112539, '111', '1692454247@qq.com', '111', 0, '2020-08-15T09:39:02.764+0800', '2020-08-15T09:39:02.764+0800' );;
+2020-08-15 09:39:02 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 09:39:02 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:44:57 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 09:44:57 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:45:12 INFO  http-nio-8888-exec-2 p6spy 2020-08-15 09:45:12 | 耗时 53 ms | SQL 语句：
+select u.t_user_name from codeworld_user where t_user_name = '111';
+2020-08-15 09:45:42 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 09:45:42 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 09:45:46 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 09:45:46 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-08-15 09:45:46 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 09:45:46 | 耗时 12 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 8508969, '1111', '1692454247@qq.com', '111', 0, '2020-08-15T09:45:46.747+0800', '2020-08-15T09:45:46.747+0800' );;
+2020-08-15 09:45:46 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 09:45:46 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:48:32 INFO  http-nio-8888-exec-6 p6spy 2020-08-15 09:48:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user;
+2020-08-15 09:50:07 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 09:50:07 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 09:57:46 INFO  http-nio-8888-exec-6 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 09:57:46 INFO  http-nio-8888-exec-8 p6spy 2020-08-15 09:57:46 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:03:09 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 10:03:09 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:04:18 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:04:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:13:10 INFO  http-nio-8888-exec-4 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 10:13:11 INFO  http-nio-8888-exec-6 p6spy 2020-08-15 10:13:11 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:13:18 INFO  http-nio-8888-exec-8 p6spy 2020-08-15 10:13:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1';
+2020-08-15 10:13:25 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 10:13:25 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:14:56 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:14:56 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-08-15 10:17:48 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 10:17:48 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:17:53 INFO  http-nio-8888-exec-2 p6spy 2020-08-15 10:17:53 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:17:59 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 10:17:59 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '11111';
+2020-08-15 10:18:18 INFO  http-nio-8888-exec-8 p6spy 2020-08-15 10:18:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-08-15 10:18:28 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 10:18:28 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:21:19 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:21:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1112';
+2020-08-15 10:21:24 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:21:24 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:23:47 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 10:23:47 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:24:50 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:24:50 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:25:25 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 10:25:25 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:26:24 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:26:24 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:27:13 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:27:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:27:20 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 10:27:20 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '';
+2020-08-15 10:27:51 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:27:51 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:28:00 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:28:00 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:28:03 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:28:03 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-08-15 10:29:00 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:29:00 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:29:12 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:29:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:29:21 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:29:21 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-08-15 10:29:42 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:29:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:30:11 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:30:11 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:30:29 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 10:30:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:30:33 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:30:33 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '11';
+2020-08-15 10:30:46 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:30:46 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '';
+2020-08-15 10:31:28 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:31:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:31:34 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 10:31:34 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1';
+2020-08-15 10:31:36 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:31:36 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '';
+2020-08-15 10:31:59 INFO  http-nio-8888-exec-5 p6spy 2020-08-15 10:31:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:32:04 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:32:04 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '1';
+2020-08-15 10:32:18 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 10:32:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '11';
+2020-08-15 10:32:29 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:32:29 | 耗时 0 ms | SQL 语句：
+select u.t_user_name from codeworld_user u where t_user_name = '11';
+2020-08-15 10:32:29 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:32:29 | 耗时 11 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 455586, '11', '1692454247@qq.com', '1111', 0, '2020-08-15T10:32:29.567+0800', '2020-08-15T10:32:29.567+0800' );;
+2020-08-15 10:32:29 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:32:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:38:15 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 10:38:15 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:39:03 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 17032 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 10:39:04 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 10:39:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 10:39:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$83a65243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 10:39:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 10:39:06 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 10:39:07 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 10:39:07 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 10:39:07 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 10:39:07 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 10:39:07 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 10:39:07 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3166 ms
+2020-08-15 10:39:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 10:39:07 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 10:39:07 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 10:39:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 10:39:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 10:39:07 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 10:39:08 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 10:39:08 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 10:39:09 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 10:39:09 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 10:39:09 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 10:39:09 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 10:39:09 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 10:39:09 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 7.229 seconds (JVM running for 17.118)
+2020-08-15 10:39:18 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 10:39:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 10:39:18 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 22 ms
+2020-08-15 10:39:20 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 10:39:20 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:40:23 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 10:40:23 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:41:48 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 10:41:48 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 10:42:20 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 10:42:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:27:28 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 12:27:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:28:03 INFO  http-nio-8888-exec-6 p6spy 2020-08-15 12:28:03 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:29:11 INFO  http-nio-8888-exec-3 p6spy 2020-08-15 12:29:11 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:29:25 INFO  http-nio-8888-exec-9 p6spy 2020-08-15 12:29:25 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:29:46 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 12:29:46 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:32:10 INFO  http-nio-8888-exec-2 p6spy 2020-08-15 12:32:10 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:34:40 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 8620 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 12:34:40 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 12:34:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:34:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$abd2c5ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:34:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:34:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:34:43 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 12:34:43 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:34:43 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 12:34:43 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 12:34:43 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 12:34:43 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2886 ms
+2020-08-15 12:34:44 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 12:34:44 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 12:34:44 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 12:34:44 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 12:34:44 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 12:34:44 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 12:34:45 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 12:34:45 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 12:34:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:34:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 12:34:45 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 12:34:45 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 12:34:45 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 12:34:46 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 6.541 seconds (JVM running for 13.57)
+2020-08-15 12:34:53 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 12:34:53 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 12:34:53 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 19 ms
+2020-08-15 12:34:55 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 12:34:55 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:39:48 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 12:39:48 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:40:25 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 12:40:25 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:43:52 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 7564 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 12:43:52 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 12:43:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:43:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8e0a8475] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:43:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:43:55 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:43:56 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 12:43:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:43:56 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 12:43:56 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 12:43:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 12:43:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4413 ms
+2020-08-15 12:43:57 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 12:43:57 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 12:43:57 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 12:43:57 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 12:43:57 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 12:43:57 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 12:43:58 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 12:43:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 12:43:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:43:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 12:43:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 12:43:59 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 12:43:59 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 12:43:59 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 9.339 seconds (JVM running for 16.378)
+2020-08-15 12:44:17 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 12:44:17 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 12:44:17 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 19 ms
+2020-08-15 12:44:19 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 12:44:19 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:48:41 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 12:48:41 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 12:56:29 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 9032 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 12:56:29 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 12:56:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:56:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$58f69de5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:56:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:56:32 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 12:56:33 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 12:56:33 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:56:33 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 12:56:33 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 12:56:34 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 12:56:34 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4809 ms
+2020-08-15 12:56:34 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 12:56:34 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 12:56:35 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 12:56:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 12:56:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 12:56:35 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 12:56:36 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 12:56:36 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 12:56:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 12:56:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 12:56:36 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 12:56:36 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 12:56:36 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 12:56:37 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 10.268 seconds (JVM running for 21.357)
+2020-08-15 12:56:48 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 12:56:48 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 12:56:48 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 21 ms
+2020-08-15 12:56:49 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 12:56:49 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:01:11 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 15840 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 13:01:11 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 13:01:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e961b072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:14 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:14 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 13:01:14 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:01:14 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 13:01:14 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 13:01:15 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 13:01:15 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3746 ms
+2020-08-15 13:01:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 13:01:15 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 13:01:15 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 13:01:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 13:01:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 13:01:15 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 13:01:16 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 13:01:17 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource closing dynamicDatasource  ing....
+2020-08-15 13:01:17 INFO  main com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2020-08-15 13:01:17 INFO  main com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2020-08-15 13:01:17 INFO  main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2020-08-15 13:01:17 INFO  main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-15 13:01:41 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 14216 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 13:01:41 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 13:01:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b7235a60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:43 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:01:44 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 13:01:44 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:01:44 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 13:01:44 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 13:01:44 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 13:01:44 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3017 ms
+2020-08-15 13:01:44 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 13:01:44 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 13:01:45 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 13:01:45 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 13:01:45 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 13:01:45 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 13:01:45 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 13:01:46 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 13:01:46 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:01:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 13:01:46 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 13:01:46 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 13:01:46 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 13:01:46 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 6.983 seconds (JVM running for 14.283)
+2020-08-15 13:01:53 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 13:01:53 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 13:01:53 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 11 ms
+2020-08-15 13:01:54 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 13:01:54 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:03:03 INFO  http-nio-8888-exec-1 p6spy 2020-08-15 13:03:03 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:04:24 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 9384 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 13:04:24 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 13:04:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:04:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9fc3ee8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:04:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:04:26 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:04:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 13:04:27 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:04:27 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 13:04:27 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 13:04:27 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 13:04:27 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3193 ms
+2020-08-15 13:04:27 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 13:04:28 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 13:04:28 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 13:04:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 13:04:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 13:04:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 13:04:29 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 13:04:29 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 13:04:29 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:04:29 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 13:04:29 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 13:04:29 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 13:04:29 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 13:04:30 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 7.126 seconds (JVM running for 14.159)
+2020-08-15 13:04:44 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 13:04:44 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 13:04:44 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 19 ms
+2020-08-15 13:04:45 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 13:04:45 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:11:45 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 8688 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-08-15 13:11:45 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-08-15 13:11:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:11:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8cbd0b47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:11:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:11:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-15 13:11:48 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-08-15 13:11:48 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:11:48 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-15 13:11:48 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-15 13:11:48 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-08-15 13:11:48 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3589 ms
+2020-08-15 13:11:49 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-08-15 13:11:49 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-08-15 13:11:49 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-08-15 13:11:49 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-08-15 13:11:49 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-08-15 13:11:49 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-08-15 13:11:50 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-08-15 13:11:50 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-15 13:11:51 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-08-15 13:11:51 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-15 13:11:51 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-08-15 13:11:51 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-08-15 13:11:51 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-08-15 13:11:51 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 7.842 seconds (JVM running for 17.159)
+2020-08-15 13:12:01 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-15 13:12:01 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-15 13:12:01 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 15 ms
+2020-08-15 13:12:01 INFO  http-nio-8888-exec-4 p6spy 2020-08-15 13:12:01 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:12:23 INFO  http-nio-8888-exec-10 p6spy 2020-08-15 13:12:23 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;
+2020-08-15 13:15:00 INFO  http-nio-8888-exec-7 p6spy 2020-08-15 13:15:00 | 耗时 2 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC;

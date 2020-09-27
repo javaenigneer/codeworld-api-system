@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    dynamic:
+      # 是否开启 SQL日志输出，生产环境建议关闭，有性能损耗
+      p6spy: false
+      hikari:
+        connection-timeout: 30000
+        max-lifetime: 1800000
+        max-pool-size: 15
+        min-idle: 5
+        connection-test-query: select 1
+        pool-name: FebsHikariCP
+      # 配置默认数据源
+      primary: base
+      datasource:
+        # 数据源-1，名称为 base
+        base:
+          username: root
+          password: root
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://192.168.2.6:3306/codeworld-vue-system?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+        quartz:
+          url: jdbc:mysql://192.168.2.6:3306/codeworld-quartz?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: root
+    #开启Aop
+  aop:
+    auto: true
+    proxy-target-class: true
+  redis:
+    host: 192.168.2.6
+    database: 0
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

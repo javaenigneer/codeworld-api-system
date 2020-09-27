@@ -1,0 +1,1826 @@
+2020-09-19 10:40:43 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 17264 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-19 10:40:43 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-19 10:40:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 10:40:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d44a0cf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 10:40:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 10:40:48 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 10:40:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-19 10:40:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-19 10:40:49 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-19 10:40:49 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-19 10:40:50 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-19 10:40:50 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 6295 ms
+2020-09-19 10:40:50 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-19 10:40:50 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-19 10:40:51 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-19 10:40:51 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-09-19 10:40:51 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-19 10:40:51 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-19 10:40:52 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 10:40:53 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-19 10:40:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-19 10:40:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-19 10:40:53 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-19 10:40:53 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-19 10:40:53 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-19 10:40:54 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 13.747 seconds (JVM running for 26.104)
+2020-09-19 10:45:49 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-19 10:45:49 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-19 10:45:49 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2020-09-19 10:45:49 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-19 10:45:49 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 10:45:49 | 耗时 2 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 10:45:50 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 10:45:50 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 10:45:50 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 10:45:50 | 耗时 7 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 10:45:50 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 10:45:50 | 耗时 5 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 10:45:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 10:45:53 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 10:45:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 10:45:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 10:45:54 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 10:45:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 10:46:00 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 10:46:00 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 10:49:20 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 10:49:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 10:49:20 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 10:49:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 10:49:35 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 10:49:35 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:19:22 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 12:19:22 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:19:25 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 12:19:25 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 12:19:25 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 12:19:25 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 12:19:27 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 12:19:27 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:19:31 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 12:19:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:22:00 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 12:22:00 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 12:22:00 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 12:22:00 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 12:22:07 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 12:22:07 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:22:18 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 12:22:18 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 12:22:18 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 12:22:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 12:22:19 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 12:22:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:22:20 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 12:22:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 12:22:20 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 12:22:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 12:22:21 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 12:22:21 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 12:22:22 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 12:22:22 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 13:28:54 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 13:28:54 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:28:54 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 13:28:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:30:27 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 13:30:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 13:30:32 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 13:30:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 13:43:09 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 13:43:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:43:09 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 13:43:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:45:03 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:45:03 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 13:45:06 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 13:45:06 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:45:06 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 13:45:06 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:53:26 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 13:53:26 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 13:53:26 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:53:26 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 13:53:26 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:53:26 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 13:53:26 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:53:26 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 13:53:28 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 13:53:28 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:53:28 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 13:53:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:55:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 13:55:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:55:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 13:55:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:56:36 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:56:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:56:36 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:56:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:58:09 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 13:58:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:58:09 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 13:58:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:59:14 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 13:59:14 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:59:14 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 13:59:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 13:59:18 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:59:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 13:59:18 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:59:18 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 13:59:18 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 13:59:18 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 13:59:18 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 13:59:18 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 13:59:18 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 13:59:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:00:19 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:00:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:00:19 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:00:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:00:22 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:00:22 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:00:22 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:00:22 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:00:22 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:00:22 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:00:22 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:00:22 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:00:22 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:00:22 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:02:30 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:02:30 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:02:30 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:02:30 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:02:30 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:02:30 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:02:34 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:02:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:05:20 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:05:20 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:05:20 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:05:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:05:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:05:20 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:05:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:14:03 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:14:03 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:14:03 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:14:03 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:14:03 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:14:03 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:21:51 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:21:51 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:21:51 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:21:51 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:21:51 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:21:51 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:23:12 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:23:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:23:12 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:23:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:23:12 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:23:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:23:18 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:23:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:23:47 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:23:47 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:23:47 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:23:47 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:23:47 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:23:47 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:23:48 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:23:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:23:48 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:23:48 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:23:48 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:23:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:24:28 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:24:28 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:24:28 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:24:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:24:28 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:24:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:24:35 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:24:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:31:41 INFO  http-nio-8888-exec-1 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 14:31:41 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:31:41 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:31:41 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:31:41 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:31:41 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:31:41 | 耗时 2 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:31:42 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:31:42 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:32:06 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:32:06 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:32:06 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:32:06 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:32:06 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:32:06 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:32:06 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:32:06 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:32:37 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 17824 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-19 14:32:37 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-19 14:32:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 14:32:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7a8205f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 14:32:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 14:32:40 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 14:32:40 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-19 14:32:40 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-19 14:32:40 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-19 14:32:40 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-19 14:32:41 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-19 14:32:41 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3262 ms
+2020-09-19 14:32:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-19 14:32:41 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-19 14:32:41 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-19 14:32:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-09-19 14:32:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-19 14:32:41 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-19 14:32:42 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 14:32:42 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-19 14:32:43 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-19 14:32:43 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-19 14:32:43 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-19 14:32:43 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-19 14:32:43 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-19 14:32:43 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 7.203 seconds (JVM running for 15.172)
+2020-09-19 14:32:52 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-19 14:32:52 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-19 14:32:52 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 21 ms
+2020-09-19 14:32:52 INFO  http-nio-8888-exec-3 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDA0OTQ4MTAsInVzZXJuYW1lIjoiMTExMSJ9.LKuMWvqKHCBexBmDuFnNHHytLR2e8tI5IS6ys3qlXEo; Admin-Token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDA0OTQ4MTAsInVzZXJuYW1lIjoiMTExMSJ9.LKuMWvqKHCBexBmDuFnNHHytLR2e8tI5IS6ys3qlXEo] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-19 14:32:52 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:32:52 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:32:53 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:32:53 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:32:53 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:32:53 | 耗时 3 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:32:53 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:32:53 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:32:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:32:53 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:32:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:32:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:34:34 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:34:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:34:35 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:34:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:34:35 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 14:34:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:34:35 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 14:34:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:34:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:34:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:34:38 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:34:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:34:38 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:34:38 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:34:38 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:34:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:35:23 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:35:23 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:36:18 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:36:18 | 耗时 1 ms | SQL 语句：
+insert into codeworld_menu ( t_menu_id, t_parent_id , t_menu_url , t_menu_resources, t_menu_name , t_menu_type, t_menu_remarks , t_menu_sort_no , t_create_time , t_update_time ) values (431133,1000,'/system-user','user','用户管理','menu','用户管理',1,'2020-09-19T14:36:18.451+0800','2020-09-19T14:36:18.451+0800');;
+2020-09-19 14:36:18 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:36:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:36:55 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:36:55 | 耗时 12 ms | SQL 语句：
+insert into codeworld_menu ( t_menu_id, t_parent_id , t_menu_url , t_menu_resources, t_menu_name , t_menu_type, t_menu_remarks , t_menu_sort_no , t_create_time , t_update_time ) values (887057,431133,'/system-user/add-user','user:add','添加用户','button','添加用户',1,'2020-09-19T14:36:55.865+0800','2020-09-19T14:36:55.865+0800');;
+2020-09-19 14:36:55 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:36:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:37:01 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:37:01 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:37:01 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:37:01 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:37:01 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:37:01 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:37:01 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:37:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:37:08 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:37:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:37:08 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:37:08 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:37:08 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 14:37:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:38:14 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 14:38:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:38:16 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:38:16 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:38:16 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:38:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:38:22 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:38:22 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:39:09 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:39:09 | 耗时 12 ms | SQL 语句：
+insert into codeworld_menu ( t_menu_id, t_parent_id , t_menu_url , t_menu_resources, t_menu_name , t_menu_type, t_menu_remarks , t_menu_sort_no , t_create_time , t_update_time ) values (399716,431133,'/system-user/enable-user','user:enable','启用用户','button','启用用户',2,'2020-09-19T14:39:09.515+0800','2020-09-19T14:39:09.515+0800');;
+2020-09-19 14:39:09 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:39:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:39:16 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:39:16 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:39:16 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 14:39:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:39:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:39:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:39:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:39:19 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:39:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:39:19 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:39:20 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:39:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:39:20 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:39:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:39:47 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:39:47 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:39:47 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:39:47 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:39:47 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:39:47 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:39:47 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:39:47 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:39:47 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:39:47 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:39:49 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:39:49 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:39:49 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:39:49 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:39:49 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:39:49 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:39:49 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:39:49 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:39:49 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:39:49 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:40:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:40:37 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:40:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:40:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:40:53 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 14:40:53 | 耗时 1 ms | SQL 语句：
+update codeworld_user set t_user_status = 1 where t_user_id = 4810056;
+2020-09-19 14:41:50 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:41:50 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:41:50 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:41:50 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:41:50 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 14:41:50 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:41:50 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:41:50 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 14:41:50 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:41:50 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:41:53 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 14:41:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:41:53 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:41:53 | 耗时 9 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:41:53 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:41:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:42:19 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:42:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:42:19 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:42:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:42:19 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:42:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:42:54 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 14:42:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:42:54 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:42:54 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:42:54 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 14:42:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:42:56 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:42:56 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 14:42:56 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 14:42:56 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:42:56 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 14:42:56 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 14:42:56 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:14:31 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:14:31 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:14:31 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:14:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:14:31 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:14:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:14:53 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:14:53 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:14:53 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:14:53 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:14:53 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:14:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:14:58 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:14:58 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:14:58 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:14:58 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:14:58 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:14:58 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:14:58 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:14:58 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:15:01 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:15:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:15:01 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:15:01 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:15:01 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:15:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:15:27 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:15:27 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:15:27 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:15:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:15:27 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:15:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:15:28 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:15:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:15:39 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:15:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:15:39 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:15:39 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:15:39 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:15:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:15:40 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:15:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:17:17 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:17:17 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:17:18 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:17:18 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:17:18 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:17:18 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:17:18 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:17:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:17:18 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:17:18 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:17:18 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:17:18 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:17:19 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:17:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:17:35 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:17:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:17:49 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:17:49 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:18:19 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:18:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:18:33 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:18:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:18:33 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:18:33 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:18:33 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:18:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:18:59 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:18:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:20:21 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:20:21 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:20:21 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:20:21 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:20:21 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:20:21 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:20:26 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:20:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:20:28 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:20:28 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:20:32 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:20:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:21:09 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:21:09 | 耗时 12 ms | SQL 语句：
+insert into codeworld_menu ( t_menu_id, t_parent_id , t_menu_url , t_menu_resources, t_menu_name , t_menu_type, t_menu_remarks , t_menu_sort_no , t_create_time , t_update_time ) values (639590,1001,'/system-user/delete-user','user:delete','删除角色','button','删除角色',3,'2020-09-19T15:21:09.815+0800','2020-09-19T15:21:09.815+0800');;
+2020-09-19 15:21:09 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:21:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:22:38 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:22:38 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:22:38 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:22:38 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:22:38 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:22:38 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:22:39 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:22:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:22:42 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:22:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:22:42 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:22:42 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:22:42 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:22:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:23:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:23:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:23:36 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:39 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:23:39 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 15:23:39 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:23:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:40 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:23:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:40 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:23:40 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:23:40 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:23:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:41 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:23:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:43 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:23:43 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 15:23:43 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:23:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:44 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:23:44 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:44 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:44 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:23:44 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:23:44 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:45 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:23:45 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 15:23:45 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:23:45 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:47 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:23:47 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:23:47 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:23:47 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:23:47 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:23:47 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:23:49 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:23:49 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:24:17 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:24:17 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:24:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:24:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:25:08 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:25:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:27:26 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:27:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:27:26 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:27:26 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:27:26 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:27:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:27:36 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:27:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:27:36 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:27:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:27:36 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:27:36 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:28:05 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:28:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:28:05 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:28:05 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:28:05 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:28:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:30:47 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:30:47 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:35:40 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:35:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:35:40 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:35:40 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:35:40 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:35:40 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:35:44 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:35:44 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:35:44 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:35:44 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:35:44 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:35:44 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:35:45 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:35:45 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:35:45 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:35:45 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:35:45 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:35:45 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-7 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:23 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:23 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:23 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:44:23 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:44:23 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:44:23 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:44:23 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:44:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:44:29 | 耗时 0 ms | SQL 语句：
+update codeworld_role set t_role_code = NULL, t_role_name = NULL, t_role_remarks = NULL, t_update_time = '2020-09-19T15:44:29.456+0800' where t_role_id = NULL;
+2020-09-19 15:44:29 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:44:29 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:44:29 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:44:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:44:59 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:44:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:45:04 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:45:04 | 耗时 11 ms | SQL 语句：
+update codeworld_role set t_role_code = 'admin', t_role_name = '系统管理员', t_role_remarks = '全部特权，哈哈哈', t_update_time = '2020-09-19T15:45:04.688+0800' where t_role_id = 1;
+2020-09-19 15:45:04 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:45:04 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:45:04 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:45:04 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:45:12 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:45:12 | 耗时 13 ms | SQL 语句：
+update codeworld_role set t_role_code = 'admin', t_role_name = '系统管理员', t_role_remarks = '', t_update_time = '2020-09-19T15:45:12.471+0800' where t_role_id = 1;
+2020-09-19 15:45:12 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:45:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:45:12 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:45:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:45:24 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:45:24 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:45:35 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:45:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:49:50 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:49:50 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:49:50 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:49:50 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:49:50 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:49:50 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:49:55 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:49:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:51:07 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:51:07 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:51:07 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:51:07 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:51:07 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:51:07 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:51:07 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:51:12 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:51:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:51:41 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:51:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:51:41 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:51:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:51:41 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:51:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:51:43 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:51:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:52:13 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:52:13 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:52:13 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:52:13 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:52:13 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:52:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:52:16 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:52:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:53:35 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 15:53:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:53:35 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:53:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:53:35 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:53:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:53:57 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:53:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:53:59 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:53:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:54:26 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:54:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:54:26 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:54:26 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:54:26 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:54:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:54:56 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:54:56 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:54:57 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:54:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:55:35 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 15:55:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:55:35 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:55:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:55:35 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 15:55:35 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:55:37 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:55:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:55:39 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 15:55:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 15:56:41 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 15:56:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:56:41 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:56:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:56:41 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 15:56:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:56:54 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 15:56:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:56:54 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:56:54 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:56:54 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 15:56:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 15:57:29 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:57:29 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 15:57:29 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 15:57:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 15:57:29 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 15:57:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:16:17 INFO  http-nio-8888-exec-4 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 16:16:22 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:16:22 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:16:22 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:22 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:16:22 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:22 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:16:22 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:22 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:16:24 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:16:24 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:16:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:16:24 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:16:24 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:16:24 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:16:26 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:16:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 8 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (955530,1,1000,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (99327,1,1001,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (568559,1,854257,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (559564,1,767865,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (344238,1,639590,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (499095,1,982791,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (456200,1,1002,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (10280,1,1003,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (315665,1,431133,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (989728,1,887057,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (748603,1,399716,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:33 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:33 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (375904,1,541778,'2020-09-19T16:16:33.308+0800','2020-09-19T16:16:33.308+0800');;
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:16:38 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:16:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:16:39 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:16:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (498670,1,1000,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (104984,1,1001,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (998230,1,854257,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (207041,1,767865,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (749831,1,982791,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (170644,1,1002,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (807261,1,1003,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (13873,1,431133,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (933050,1,887057,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (406340,1,399716,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:46 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:16:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (56772,1,541778,'2020-09-19T16:16:46.648+0800','2020-09-19T16:16:46.648+0800');;
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:16:51 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:16:51 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:16:53 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:16:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:17:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:17:19 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:17:19 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:17:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:17:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:17:19 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:17:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:17:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:17:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 9 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (626004,1,1000,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (188413,1,1001,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (571102,1,854257,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (736775,1,767865,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (47888,1,639590,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (297055,1,982791,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (414228,1,1002,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (455824,1,1003,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (308639,1,431133,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (886129,1,887057,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (195554,1,399716,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (882553,1,541778,'2020-09-19T16:17:27.723+0800','2020-09-19T16:17:27.723+0800');;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:17:27 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:17:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:05 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:18:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:18:05 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:18:05 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:05 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:18:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:06 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:06 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:18:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:18:14 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:18:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 8 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (69177,1,1000,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (469018,1,1001,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (969503,1,767865,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (248135,1,639590,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (632974,1,982791,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (891522,1,1002,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (91921,1,1003,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (190387,1,431133,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (358113,1,887057,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (887525,1,399716,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (615981,1,541778,'2020-09-19T16:18:20.314+0800','2020-09-19T16:18:20.314+0800');;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:20 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:35 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:18:35 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:18:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:35 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:18:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:40 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:18:40 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:18:40 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:18:40 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:18:40 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:18:40 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:18:41 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:41 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:41 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:18:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:18:42 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 16:18:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (155226,1,1000,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (983,1,1001,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (337223,1,854257,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (20868,1,767865,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (150667,1,639590,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (550682,1,982791,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (159246,1,1002,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (428870,1,1003,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (429211,1,431133,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (62387,1,887057,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (846923,1,399716,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (691132,1,541778,'2020-09-19T16:18:45.726+0800','2020-09-19T16:18:45.726+0800');;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:45 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:18:45 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:18:55 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 16:18:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (205817,1,1000,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (568205,1,1001,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (67560,1,854257,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (827432,1,767865,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (606680,1,639590,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (998730,1,982791,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (22006,1,1002,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (296579,1,1003,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (468742,1,431133,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (358481,1,887057,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (404962,1,399716,'2020-09-19T16:18:59.561+0800','2020-09-19T16:18:59.561+0800');;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:18:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:18:59 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:19:02 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:19:02 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:19:06 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:19:06 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (419982,1,1000,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (779647,1,1001,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (517326,1,854257,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (633965,1,767865,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (479250,1,639590,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (464920,1,982791,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (210572,1,1002,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (415853,1,1003,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (6439,1,431133,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (151524,1,887057,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (366605,1,399716,'2020-09-19T16:19:08.568+0800','2020-09-19T16:19:08.568+0800');;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:19:08 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:19:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:19:14 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:19:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:19:32 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:32 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 16:19:32 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:32 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:19:34 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 16:19:34 | 耗时 11 ms | SQL 语句：
+update codeworld_user set t_user_status = 0 where t_user_id = 4810056;
+2020-09-19 16:19:35 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:19:35 | 耗时 10 ms | SQL 语句：
+update codeworld_user set t_user_status = 1 where t_user_id = 4810056;
+2020-09-19 16:19:41 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 16:19:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:19:42 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 16:19:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:19:42 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:19:42 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:19:42 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 16:19:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:19:43 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 16:19:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:20:36 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 16:20:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:20:36 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:20:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:20:36 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 16:20:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:20:38 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:20:38 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 16:20:38 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:20:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 16:24:30 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 16:24:30 | 耗时 12 ms | SQL 语句：
+update codeworld_user set t_user_status = 0 where t_user_id = 4810056;
+2020-09-19 16:24:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 16:24:33 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 16:24:33 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 16:24:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 16:24:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 16:24:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:35:42 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 18:35:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:35:42 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 18:35:42 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:35:42 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 18:35:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:39:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:39:53 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:39:53 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:39:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:39:53 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 18:39:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:40:33 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:40:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:40:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 18:40:33 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:40:33 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 18:40:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:40:39 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 18:40:39 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:40:39 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 18:40:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:40:39 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 18:40:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:40:52 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 18:40:52 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 18:40:52 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:40:52 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 18:40:52 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:40:52 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 18:40:52 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:40:52 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 18:40:55 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 18:40:55 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 18:40:55 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 18:40:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:40:57 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:40:57 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:40:57 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 18:40:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:40:57 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:40:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:42:55 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 18:42:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:42:55 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:42:55 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:42:55 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:42:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:43:02 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:43:02 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 18:43:02 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 18:43:02 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 18:43:02 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:43:02 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 18:43:02 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:44:34 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 18:44:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:45:42 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 18:45:42 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:45:42 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 18:45:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:45:42 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 18:45:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 18:45:43 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 18:45:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:29:04 INFO  http-nio-8888-exec-8 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 19:29:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:29:04 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 19:29:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:29:04 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 19:29:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:29:04 | 耗时 2 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 19:29:05 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 19:29:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 19:29:05 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 19:29:05 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:29:05 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 19:29:05 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:29:29 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 19:29:29 | 耗时 32 ms | SQL 语句：
+insert into codeworld_role (t_role_id,t_role_code,t_role_name,t_role_remarks,t_create) values ();;
+2020-09-19 19:33:35 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 19:33:35 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 19:33:35 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 19:33:35 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 19:33:35 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 19:33:35 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 19:33:36 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 19:33:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 19:33:36 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 19:33:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:33:36 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 19:33:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:34:04 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:34:04 | 耗时 12 ms | SQL 语句：
+insert into codeworld_role (t_role_id,t_role_code,t_role_name,t_role_remarks,t_create_time,t_update_time) values ( 121431, 'register', '注册用户', '注册用户', '2020-09-19T19:34:04.500+0800', '2020-09-19T19:34:04.500+0800' );;
+2020-09-19 19:34:04 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:04 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:34:04 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:04 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:34:09 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 19:34:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (759312,121431,854257,'2020-09-19T19:34:17.812+0800','2020-09-19T19:34:17.812+0800');;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (618448,121431,1003,'2020-09-19T19:34:17.812+0800','2020-09-19T19:34:17.812+0800');;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (971859,121431,887057,'2020-09-19T19:34:17.812+0800','2020-09-19T19:34:17.812+0800');;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:34:17 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 19:34:17 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:34:20 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:34:20 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 8 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (391727,121431,1000,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (824537,121431,1001,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (57791,121431,854257,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (266452,121431,1002,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (800860,121431,1003,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (557988,121431,431133,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (375089,121431,887057,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (964306,121431,541778,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (53666,121431,992457,'2020-09-19T19:34:29.695+0800','2020-09-19T19:34:29.695+0800');;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:34:29 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 19:34:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:34:41 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 19:34:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 19:34:41 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 19:34:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:35:09 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:35:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 19:35:09 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 19:35:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 19:35:09 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 19:35:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 19:35:16 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 19:35:16 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 19:35:16 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 19:35:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:14:55 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:14:55 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:14:55 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:14:55 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:21:26 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:21:26 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:21:26 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:21:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:21:35 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:21:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 22:21:35 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:21:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 22:21:35 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:21:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:21:39 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:21:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 9 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (797424,1,1000,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (587726,1,1001,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (343034,1,854257,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (295331,1,767865,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (35254,1,639590,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (665505,1,982791,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (342774,1,1002,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (331431,1,1003,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (524754,1,431133,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (130283,1,887057,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (818035,1,399716,'2020-09-19T22:21:44.080+0800','2020-09-19T22:21:44.080+0800');;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 22:21:44 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:21:44 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:21:48 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:21:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 22:21:52 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:21:52 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:21:52 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:21:52 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:21:54 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:21:54 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 22:22:34 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:22:34 | 耗时 12 ms | SQL 语句：
+insert into codeworld_menu ( t_menu_id, t_parent_id , t_menu_url , t_menu_resources, t_menu_name , t_menu_type, t_menu_remarks , t_menu_sort_no , t_create_time , t_update_time ) values (789006,431133,'/system-user/update-user','user:edit','编辑用户','button','编辑用户',4,'2020-09-19T22:22:34.680+0800','2020-09-19T22:22:34.680+0800');;
+2020-09-19 22:22:34 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:22:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 22:22:36 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:22:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 22:22:36 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:22:36 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 22:22:36 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:22:36 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:22:37 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 22:22:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 121431;
+2020-09-19 22:22:44 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:22:44 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role_menu where t_role_id = 1;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+delete from codeworld_role_menu where t_role_id = 1;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 6 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (713751,1,1000,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (202479,1,1001,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (235864,1,854257,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (275767,1,767865,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (633297,1,639590,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (407007,1,982791,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (509416,1,1002,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (501077,1,1003,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (194196,1,431133,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (180442,1,887057,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (325615,1,399716,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (963717,1,789006,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (921638,1,541778,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+insert into codeworld_role_menu ( t_role_menu_id, t_role_id, t_menu_id, t_create_time, t_update_time ) values (36746,1,992457,'2020-09-19T22:22:46.618+0800','2020-09-19T22:22:46.618+0800');;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 22:22:46 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:22:46 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:22:48 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:22:48 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:22:48 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:22:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:22:55 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:22:55 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:22:55 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:22:55 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:22:55 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:22:55 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:22:55 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:22:55 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:22:58 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:22:58 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:22:58 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:22:58 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:24:08 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:24:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-09-19 22:24:38 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:24:38 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:24:38 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:24:38 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:30:35 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:30:35 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:30:35 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:30:35 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:32:30 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:32:30 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:32:30 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 22:32:30 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:33:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:33:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:33:12 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:33:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:33:15 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:33:15 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:33:15 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:33:15 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:33:15 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:33:15 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:33:15 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:33:15 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:33:15 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:33:15 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-5 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:38:26 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:38:26 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:38:26 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:38:26 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:38:26 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:38:26 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:38:27 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:38:27 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:42:42 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 7020 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-09-19 22:42:42 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-09-19 22:42:44 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 22:42:44 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$49cf222a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 22:42:44 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 22:42:44 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-19 22:42:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-09-19 22:42:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-09-19 22:42:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-19 22:42:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-19 22:42:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-19 22:42:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3011 ms
+2020-09-19 22:42:45 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-09-19 22:42:45 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-09-19 22:42:46 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-09-19 22:42:46 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 1 个数据源
+2020-09-19 22:42:46 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-09-19 22:42:46 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-09-19 22:42:46 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-19 22:42:47 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-19 22:42:47 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-09-19 22:42:47 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-09-19 22:42:47 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-09-19 22:42:47 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-09-19 22:42:47 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-09-19 22:42:47 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 6.713 seconds (JVM running for 13.476)
+2020-09-19 22:42:55 INFO  http-nio-8888-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-19 22:42:55 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-19 22:42:55 INFO  http-nio-8888-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 13 ms
+2020-09-19 22:42:55 INFO  http-nio-8888-exec-3 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1594809530; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDA1MjUzNzgsInVzZXJuYW1lIjoiMTExMSJ9.OVkr_z258dopvcF4iyl1IWCveSCWxziWZocpYWMAMlw; Admin-Token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDA1MjUzNzgsInVzZXJuYW1lIjoiMTExMSJ9.OVkr_z258dopvcF4iyl1IWCveSCWxziWZocpYWMAMlw] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-19 22:42:55 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:42:55 | 耗时 1 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:42:56 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:42:56 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:42:56 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 22:42:56 | 耗时 2 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:42:56 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:42:56 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:42:56 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 22:42:56 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:42:57 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:42:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:47:09 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:47:09 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:47:09 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:47:09 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:47:09 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:47:09 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:47:09 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:47:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:47:09 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:47:09 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:47:10 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:47:10 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:50:29 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:50:29 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:50:29 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 22:50:29 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:50:30 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:50:30 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:50:56 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:50:56 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:50:56 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:50:56 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:50:56 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:50:56 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:50:57 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:50:57 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:50:57 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:50:57 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:50:58 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:50:58 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:52:33 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:52:33 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:52:33 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 22:52:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:52:34 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 22:52:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 22:52:41 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:52:41 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 22:52:41 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:52:41 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 22:52:41 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 22:52:41 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 22:52:41 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:52:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 22:52:41 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 22:52:41 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 22:52:42 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 22:52:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:01:12 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 23:01:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:01:12 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 23:01:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:01:13 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:01:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:02:09 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:02:09 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:02:09 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:02:09 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:02:11 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:02:11 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:02:11 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:02:11 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:02:11 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:02:11 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:02:11 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:02:11 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:02:11 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:02:11 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:02:12 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:02:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:03:12 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:03:12 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:03:12 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:03:12 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:03:14 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:03:14 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:03:14 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:03:14 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:03:14 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:03:14 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:03:14 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:03:14 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:03:14 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:03:14 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:03:16 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 23:03:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:03:39 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:03:39 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:03:39 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:03:39 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:03:40 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:03:40 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:03:40 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:03:40 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:03:40 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:03:40 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:03:41 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:03:41 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:03:41 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:03:41 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:03:42 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:03:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:04:10 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:04:10 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:04:10 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:04:10 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:04:11 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:04:11 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:07:15 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:07:15 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:07:15 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:07:15 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:07:16 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:07:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:09:34 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:09:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:09:34 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:09:34 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:09:56 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:09:56 | 耗时 9 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:09:56 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:09:56 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:09:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:09:59 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:09:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:09:59 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:09:59 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:09:59 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:10:00 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:10:00 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:10:00 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:10:00 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:10:01 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:10:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:10:22 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:10:22 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:10:22 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:10:22 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:10:24 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:10:24 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:10:24 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:10:24 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:10:24 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:10:24 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:10:24 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:10:24 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:10:24 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:10:24 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:10:25 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:10:25 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:10:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 23:10:46 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:10:46 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 23:10:46 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:10:48 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:10:48 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:10:48 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:10:48 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:10:48 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:10:48 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:10:48 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:10:48 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:10:48 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:10:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:10:49 INFO  http-nio-8888-exec-6 p6spy 2020-09-19 23:10:49 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:16:28 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:16:28 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-09-19 23:16:28 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:16:28 | 耗时 2 ms | SQL 语句：
+insert into codeworld_user (t_user_id,t_user_name,t_user_email,t_user_phone,t_user_status,t_create_time,t_update_time) values ( 9641201, '111', '11@qq.com', '111', 0, '2020-09-19T23:16:28.521+0800', '2020-09-19T23:16:28.521+0800' );;
+2020-09-19 23:18:15 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 23:18:15 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:18:15 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 23:18:15 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:18:15 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 23:18:15 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:18:15 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:18:15 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:18:15 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:18:15 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:19:01 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:19:01 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:19:01 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:19:01 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:19:05 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:19:05 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:19:05 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:19:05 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:19:05 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:19:05 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:19:06 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:19:06 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-09-19 23:19:06 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:19:06 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:19:07 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:19:07 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:27:42 INFO  http-nio-8888-exec-1 p6spy 2020-09-19 23:27:42 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:27:45 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:27:45 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:27:48 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:27:48 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role;
+2020-09-19 23:28:11 INFO  http-nio-8888-exec-9 p6spy 2020-09-19 23:28:11 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '11';
+2020-09-19 23:28:11 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:28:11 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '11';
+2020-09-19 23:28:11 INFO  http-nio-8888-exec-3 p6spy 2020-09-19 23:28:11 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 8395971;
+2020-09-19 23:28:33 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:28:33 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-09-19 23:28:33 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:28:33 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '111';
+2020-09-19 23:28:33 INFO  http-nio-8888-exec-5 p6spy 2020-09-19 23:28:33 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 9641201;
+2020-09-19 23:28:36 INFO  http-nio-8888-exec-7 p6spy 2020-09-19 23:28:36 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '11123';
+2020-09-19 23:28:41 INFO  http-nio-8888-exec-10 p6spy 2020-09-19 23:28:41 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:28:41 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:28:41 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = '1111';
+2020-09-19 23:28:41 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:28:41 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 4810056;
+2020-09-19 23:28:41 INFO  http-nio-8888-exec-8 p6spy 2020-09-19 23:28:41 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-09-19 23:28:43 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:28:43 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-09-19 23:28:43 INFO  http-nio-8888-exec-2 p6spy 2020-09-19 23:28:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-09-19 23:28:43 INFO  http-nio-8888-exec-4 p6spy 2020-09-19 23:28:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;

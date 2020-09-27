@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.codeworld.fc.system.log.mapper.LogMapper">
+
+    <resultMap id="BaseLogMap" type="com.codeworld.fc.system.log.entity.Log">
+
+        <id property="logId" column="t_log_id"/>
+
+        <result property="logOperationUserName" column="t_log_operation_username"/>
+
+        <result property="logOperation" column="t_log_operation"/>
+
+        <result property="logTime" column="t_log_time"/>
+
+        <result property="logMethod" column="t_log_method"/>
+
+        <result property="logParams" column="t_log_params"/>
+
+        <result property="logIp" column="t_log_ip"/>
+
+        <result property="logLocation" column="t_log_location"/>
+
+        <result property="logCreateTime" column="t_log_create_time"/>
+
+    </resultMap>
+
+    <!-- 查询语句 -->
+    <!-- 查询全部日志 -->
+    <select id="getAllLog" parameterType="com.codeworld.fc.system.log.vo.LogSearchVO" resultMap="BaseLogMap">
+        select * from codeworld_log order by t_log_create_Time DESC
+
+    </select>
+
+    <!-- 添加语句 -->
+    <!-- 保存日志 -->
+    <insert id="addLog" parameterType="com.codeworld.fc.system.log.entity.Log">
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values (
+
+        #{logId},
+
+        #{logOperationUserName},
+
+        #{logOperation},
+
+        #{logTime},
+
+        #{logMethod},
+
+        #{logParams},
+
+        #{logIp},
+
+        #{logLocation},
+
+        #{logCreateTime}
+
+        );
+    </insert>
+
+    <!-- 删除语句 -->
+    <!-- 定时删除日志 -->
+    <delete id="deleteAllLog">
+        delete from codeworld_log
+    </delete>
+
+</mapper>

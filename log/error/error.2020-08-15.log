@@ -1,0 +1,16 @@
+2020-08-15 13:01:17 ERROR main org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.jackson.serialization' to java.util.Map<com.fasterxml.jackson.databind.SerializationFeature, java.lang.Boolean>:
+
+    Reason: No converter found capable of converting from type [java.lang.Boolean] to type [java.util.Map<com.fasterxml.jackson.databind.SerializationFeature, java.lang.Boolean>]
+
+Action:
+
+Update your application's configuration
+

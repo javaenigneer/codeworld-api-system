@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.codeworld.fc.job.mapper.JobMapper">
+
+    <resultMap id="BaseJobMap" type="com.codeworld.fc.job.entity.Job">
+
+        <id property="jobId" column="t_job_id"/>
+
+        <result property="beanName" column="t_job_bean_name"/>
+
+        <result property="methodName" column="t_job_method_name"/>
+
+        <result property="params" column="t_job_params"/>
+
+        <result property="cronExpression" column="t_job_cron_expression"/>
+
+        <result property="status" column="t_job_status"/>
+
+        <result property="remark" column="t_job_remark"/>
+
+        <result property="createTime" column="t_job_create_time"/>
+
+        <result property="updateTime" column="t_job_update_time"/>
+
+    </resultMap>
+
+    <!-- 查询语句 -->
+    <!-- 查询全部任务 -->
+    <select id="getAllJob" resultMap="BaseJobMap" parameterType="com.codeworld.fc.job.vo.JobSearchVO">
+
+        select * from codeworld_job
+
+        <where>
+            <if test="beanName != null and beanName != ''">
+
+                and   t_job_bean_name like "%"#{beanName}"%"
+            </if>
+
+            <if test="methodName != null and methodName != ''">
+                and t_job_method_name like "%"#{methodName}"%"
+            </if>
+
+            <if test="status != null">
+                and  t_job_status = #{status}
+            </if>
+
+            <if test="createTime != null ">
+                <![CDATA[
+
+                    and   t_job_create_time >= #{createTime}
+                 ]]>
+            </if>
+
+            <if test="updateTime != null ">
+                <![CDATA[
+
+                   and  t_job_update_time <= #{updateTime}
+                 ]]>
+            </if>
+
+        </where>
+
+        order by t_job_create_time DESC
+
+    </select>
+
+    <!-- 根据Id获取任务 -->
+    <select id="getJobById" parameterType="java.lang.Long" resultMap="BaseJobMap">
+        select * from codeworld_job where t_job_id = #{jobId}
+    </select>
+
+    <!-- 修改语句 -->
+    <!-- 修改任务状态 -->
+    <update id="updateJobStatus" parameterType="com.codeworld.fc.job.entity.Job">
+        update codeworld_job set t_job_status  = #{status} where t_job_id = #{jobId}
+    </update>
+
+    <!-- 删除语句 -->
+    <!-- 删除任务 -->
+    <delete id="deleteJobById" parameterType="java.lang.Long">
+        delete from codeworld_job where t_job_id = #{jobId}
+    </delete>
+
+    <!-- 添加语句 -->
+    <!-- 添加语句 -->
+    <insert id="addJob" parameterType="com.codeworld.fc.job.entity.Job">
+        insert into codeworld_job
+        (
+        t_job_id,
+        t_job_bean_name,
+        t_job_method_name,
+        t_job_params,
+        t_job_cron_expression,
+        t_job_status,
+        t_job_remark,
+        t_job_create_time,
+        t_job_update_time
+        ) values
+        (
+        #{jobId},
+        #{beanName},
+        #{methodName},
+        #{params},
+        #{cronExpression},
+        #{status},
+        #{remark},
+        #{createTime},
+        #{updateTime}
+        );
+    </insert>
+
+</mapper>
