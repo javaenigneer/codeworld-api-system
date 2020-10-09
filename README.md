@@ -286,8 +286,7 @@ spring:
 - codeworld_quartz.sql 任务调度数据库
 
 ##### 项目截图
-登录界面
-[](/image/login.png)
+
 
 
 
