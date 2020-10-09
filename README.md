@@ -264,8 +264,29 @@ POM文件：
 ###### 前端
 [Vue](https://cn.vuejs.org/v2/guide/)
 
+##### 插件说明
+- lombok
+```text
+使用lombok插件可以大大提高我们的效率，通常我们在创建一个基本对象时，我们需要给属性设置getter和setter方法
+这个插件只需要设置一个注解@Data就可以完美解决
+但是要想让这个注解生效，引入依赖还不行，还需要我们在IDEA中下载插件
+```
 ##### 项目启动说明
-本项目使用SpringSecurity作为安全框架
+本项目使用了Redis缓存，那么我们在电脑上要先把Redis启动起来
+在配置文件中设置Redis地址，主机
+```java
+spring:
+  redis:
+   host: 192.168.2.4
+   database: 0
+```
+导入我们的数据库
+有两个数据库
+- codeworld-vue-system.sql 我们管理系统数据库
+- codeworld_quartz.sql 任务调度数据库
 
+##### 项目截图
+登录界面
+[](/image/login.png)
 
 
