@@ -27,4 +27,10 @@ public interface LogMapper {
      * 删除全部日志
      */
     void deleteAllLog();
+
+    /**
+     * 删除日志
+     * @param id
+     */
+    void deleteLog(Long id);
 }

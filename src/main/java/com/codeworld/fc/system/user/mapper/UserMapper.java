@@ -1,5 +1,6 @@
 package com.codeworld.fc.system.user.mapper;
 
+import com.codeworld.fc.system.user.dto.UserDeptResponse;
 import com.codeworld.fc.system.user.entity.User;
 import com.codeworld.fc.system.user.vo.UserSearchRequest;
 import org.apache.ibatis.annotations.Mapper;
@@ -46,4 +47,17 @@ public interface UserMapper {
      * @param user
      */
     void updateUser(User user);
+
+    /**
+     * 根据部门Id获取用户
+     * @param deptId
+     * @return
+     */
+    List<UserDeptResponse> getUserByDeptId(Long deptId);
+
+    /**
+     * 获取用户全部数量
+     * @return
+     */
+    Long getAllUserCount();
 }

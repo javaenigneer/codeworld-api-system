@@ -27,4 +27,11 @@ public interface LogService {
      * @param start
      */
     void addLog(ProceedingJoinPoint point, Method targetMethod, HttpServletRequest request, String operation, long start);
+
+    /**
+     * 删除日志
+     * @param id
+     * @return
+     */
+    FCResponse<Void> deleteLog(Long id);
 }

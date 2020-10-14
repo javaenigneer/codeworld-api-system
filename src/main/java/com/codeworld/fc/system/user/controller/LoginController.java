@@ -4,6 +4,7 @@ import com.codeworld.fc.common.annotation.ControllerEndpoint;
 import com.codeworld.fc.common.enums.HttpFcStatus;
 import com.codeworld.fc.common.response.FCResponse;
 import com.codeworld.fc.system.user.service.LoginService;
+import com.codeworld.fc.system.user.vo.UserLoginOutRequest;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -38,6 +39,13 @@ public class LoginController {
                                                  HttpServletRequest request,
                                                  HttpServletResponse response) {
         return this.loginService.login(userLoginRequest, request, response);
+    }
+
+    @PostMapping("user-login-out")
+    @ApiOperation("退出登录")
+    @ControllerEndpoint(operation = "退出登录",exceptionMessage = "退出登录失败")
+    public FCResponse<Void> LoginOut(@RequestBody UserLoginOutRequest userLoginOutRequest){
+        return this.loginService.loginOut(userLoginOutRequest);
     }
 
 

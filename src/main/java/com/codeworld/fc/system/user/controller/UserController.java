@@ -4,8 +4,11 @@ import com.codeworld.fc.common.annotation.ControllerEndpoint;
 import com.codeworld.fc.common.enums.HttpFcStatus;
 import com.codeworld.fc.common.response.DataResponse;
 import com.codeworld.fc.common.response.FCResponse;
+import com.codeworld.fc.system.user.dto.UserDeptResponse;
 import com.codeworld.fc.system.user.dto.UserInfoResponse;
 import com.codeworld.fc.system.user.entity.User;
+import com.codeworld.fc.system.user.entity.UserDept;
+import com.codeworld.fc.system.user.service.UserDeptService;
 import com.codeworld.fc.system.user.service.UserService;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 import com.codeworld.fc.system.user.vo.UserRegisterRequest;
@@ -38,6 +41,9 @@ public class UserController {
 
     @Autowired(required = false)
     public UserService userService;
+
+    @Autowired(required = false)
+    private UserDeptService userDeptService;
 
 
     @PostMapping("get-all-user")
@@ -97,4 +103,25 @@ public class UserController {
         return this.userService.getUserByName(userName);
     }
 
+    @PostMapping("get-user-dept-id")
+    @ApiOperation("根据部门Id获取用户信息")
+    @ControllerEndpoint(operation = "根据部门Id获取用户信息",exceptionMessage = "根据部门Id获取用户信息失败")
+    public FCResponse<List<UserDeptResponse>> getUserByDeptId(@RequestParam("deptId") Long deptId){
+        return this.userService.getUserByDeptId(deptId);
+    }
+
+
+    @GetMapping("get-dept-user-id")
+    @ApiOperation("根据用户Id获取部门Id")
+    @ControllerEndpoint(operation = "根据用户Id获取部门Id",exceptionMessage = "根据用户Id获取部门Id失败")
+    public FCResponse<List<UserDept>> getDeptIdByUserId(@RequestParam("userId") Long userId){
+        return this.userDeptService.getDeptIdByUserId(userId);
+    }
+
+    @GetMapping("get-all-user-count")
+    @ApiOperation("获取全部用户数量")
+    @ControllerEndpoint(operation = "获取全部用户数量",exceptionMessage = "获取全部用户数量失败")
+    public FCResponse<Long> getAllUserCount(){
+        return this.userService.getAllUserCount();
+    }
 }

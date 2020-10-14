@@ -20,4 +20,11 @@ public interface JobLogService {
      * @return
      */
     FCResponse<DataResponse<List<JobLog>>> getAllJobLog(JobLogSearchVO jobLogSearchVO);
+
+    /**
+     * 删除任务日志
+     * @param id
+     * @return
+     */
+    FCResponse<Void> deleteJobLog(Long id);
 }

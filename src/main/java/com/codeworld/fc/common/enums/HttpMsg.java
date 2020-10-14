@@ -35,7 +35,14 @@ public class HttpMsg {
 
         USER_UPDATE_SUCCESS("用户信息修改成功"),
 
-        USER_DISABLE("用户被禁用");
+        USER_DISABLE("用户被禁用"),
+
+        USER_LOGIN_OUT_SUCCESS("登出成功"),
+
+        USE_DATA_EMPTY("用户数据为空"),
+
+        USER_GET_SUCCESS("用户数据查询成功")
+        ;
 
         private String msg;
 
@@ -113,7 +120,11 @@ public class HttpMsg {
 
         LOG_DATA_SUCCESS("日志查询成功"),
 
-        LOG_DATA_EMPTY("日志数据为空");
+        LOG_DATA_EMPTY("日志数据为空"),
+
+        LOG_PARAM_ERROR("日志参数错误"),
+
+        LOG_DELETE_SUCCESS("日志删除成功");
 
         private String msg;
 
@@ -160,11 +171,81 @@ public class HttpMsg {
     public enum jobLog {
 
         JOB_LOG_DATA_EMPTY("任务日志数据为空"),
-        JOB_LOG_DATA_SUCCESS("任务日志查询成功");
+        JOB_LOG_DATA_SUCCESS("任务日志查询成功"),
+        JOB_LOG_PARAMS_ERROR("任务日志参数错误"),
+        JOB_LOG_DELETE_SUCCESS("任务日志删除成功");
 
         private String msg;
 
         jobLog(String msg) {
+            this.msg = msg;
+        }
+
+        public String getMsg() {
+            return msg;
+        }
+    }
+
+    /**
+     * 请求追踪相关
+     */
+    public enum http {
+
+        HTTP_DATA_SUCCESS("任务日志查询成功");
+
+        private String msg;
+
+        http(String msg) {
+            this.msg = msg;
+        }
+
+        public String getMsg() {
+            return msg;
+        }
+    }
+
+    /**
+     * 登录日志相关
+     */
+    public enum loginLog {
+
+        LOGIN_LOG_DATA_SUCCESS("登录日志查询成功"),
+
+        LOGIN_LOG_DATA_EMPTY("登录日志数据为空"),
+
+        LOGIN_LOG_PARAMS_ERROR("参数错误"),
+
+        LOGIN_LOG_DELETE_SUCCESS("登录日志删除成功");
+
+        private String msg;
+
+        loginLog(String msg) {
+            this.msg = msg;
+        }
+
+        public String getMsg() {
+            return msg;
+        }
+    }
+
+    /**
+     * 部门相关
+     */
+    public enum dept {
+
+        DEPT_GET_SUCCESS("部门查询成功"),
+
+        DEPT_UPDATE_SUCCESS("部门修改成功"),
+
+        DEPT_ADD_SUCCESS("部门添加成功"),
+
+        DEPT_DELETE_SUCCESS("部门删除成功"),
+
+        DEPT_PARAM_ERROR("参数错误");
+
+        private String msg;
+
+        dept(String msg) {
             this.msg = msg;
         }
 

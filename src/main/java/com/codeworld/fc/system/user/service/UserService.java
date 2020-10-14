@@ -2,6 +2,7 @@ package com.codeworld.fc.system.user.service;
 
 import com.codeworld.fc.common.response.DataResponse;
 import com.codeworld.fc.common.response.FCResponse;
+import com.codeworld.fc.system.user.dto.UserDeptResponse;
 import com.codeworld.fc.system.user.dto.UserInfoResponse;
 import com.codeworld.fc.system.user.entity.User;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
@@ -63,4 +64,17 @@ public interface UserService {
      * @return
      */
     FCResponse<UserInfoResponse> getUserInfo(UserLoginRequest userLoginRequest, HttpServletRequest request, HttpServletResponse response);
+
+    /**
+     * 根据部门Id获取用户
+     * @param deptId
+     * @return
+     */
+    FCResponse<List<UserDeptResponse>> getUserByDeptId(Long deptId);
+
+    /**
+     * 获取全部用户数量
+     * @return
+     */
+    FCResponse<Long> getAllUserCount();
 }

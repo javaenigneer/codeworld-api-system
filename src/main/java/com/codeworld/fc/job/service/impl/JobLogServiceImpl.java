@@ -62,4 +62,25 @@ public class JobLogServiceImpl implements JobLogService {
             throw new FCException("系统错误");
         }
     }
+
+    /**
+     * 删除任务日志
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public FCResponse<Void> deleteJobLog(Long id) {
+
+        if (id == null || id <= 0){
+            return FCResponse.dataResponse(HttpFcStatus.PARAMSERROR.getCode(),HttpMsg.jobLog.JOB_LOG_PARAMS_ERROR.getMsg());
+        }
+        try {
+            this.jobLogMapper.deleteJobLog(id);
+            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.jobLog.JOB_LOG_DELETE_SUCCESS.getMsg());
+        }catch (Exception e){
+            e.printStackTrace();
+            throw new FCException("系统错误");
+        }
+    }
 }

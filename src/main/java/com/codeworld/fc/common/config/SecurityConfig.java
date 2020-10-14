@@ -40,12 +40,15 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers(HttpMethod.OPTIONS, "/").permitAll()
                 .antMatchers("/system-user/user-login").permitAll()
+                .antMatchers("/system-user/user-loginOut").permitAll()
                 // swagger
                 .antMatchers("/swagger**/**").permitAll()
                 .antMatchers("/webjars/**").permitAll()
                 .antMatchers("/v2/**").permitAll()
                 .anyRequest().authenticated();
+        http.logout().logoutUrl("/system-user/user-loginOut");
     }
+
 
     @Bean
     @Override

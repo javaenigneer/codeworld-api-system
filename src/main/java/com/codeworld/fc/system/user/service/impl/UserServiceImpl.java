@@ -13,8 +13,11 @@ import com.codeworld.fc.system.menu.mapper.MenuMapper;
 import com.codeworld.fc.system.role.entity.Role;
 import com.codeworld.fc.system.role.entity.UserRole;
 import com.codeworld.fc.system.role.mapper.RoleMapper;
+import com.codeworld.fc.system.user.dto.UserDeptResponse;
 import com.codeworld.fc.system.user.dto.UserInfoResponse;
 import com.codeworld.fc.system.user.entity.User;
+import com.codeworld.fc.system.user.entity.UserDept;
+import com.codeworld.fc.system.user.mapper.UserDeptMapper;
 import com.codeworld.fc.system.user.mapper.UserMapper;
 import com.codeworld.fc.system.user.service.UserService;
 import com.codeworld.fc.system.user.vo.*;
@@ -61,6 +64,9 @@ public class UserServiceImpl implements UserService {
     @Autowired(required = false)
     private StringRedisTemplate stringRedisTemplate;
 
+    @Autowired(required = false)
+    private UserDeptMapper userDeptMapper;
+
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
@@ -74,8 +80,6 @@ public class UserServiceImpl implements UserService {
     public FCResponse<DataResponse<List<User>>> getAllUser(UserSearchRequest userSearchRequest) {
 
         PageHelper.startPage(userSearchRequest.getPage(), userSearchRequest.getLimit());
-
-        LOGGER.info("数据：" + userSearchRequest);
 
         List<User> users = this.userMapper.getAllUser(userSearchRequest);
 
@@ -163,6 +167,7 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
+    @Transactional
     public FCResponse<Void> addUser(UserRegisterRequest userRegisterRequest) {
 
         try {
@@ -203,6 +208,15 @@ public class UserServiceImpl implements UserService {
 
             this.roleMapper.addUserRole(userRole);
 
+            // 添加用户部门
+            UserDept userDept = new UserDept();
+
+            userDept.setUserDeptId(IDGeneratorUtil.getNextId());
+            userDept.setUserId(user.getUserId());
+            userDept.setDeptId(userRegisterRequest.getDeptIds());
+            userDept.setCreateTime(new Date());
+            userDept.setUpdateTime(userDept.getCreateTime());
+            this.userDeptMapper.addUserDept(userDept);
             return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_ADD_SUCCESS.getMsg());
 
         } catch (Exception e) {
@@ -240,6 +254,28 @@ public class UserServiceImpl implements UserService {
 
             this.userMapper.updateUser(user);
 
+            // 更新用户角色
+            // 先删除角色id
+            this.roleMapper.deleteUserRoleByUserId(user.getUserId());
+            // 添加新的角色
+            UserRole userRole = new UserRole();
+            userRole.setUserRoleId(IDGeneratorUtil.getNextId());
+            userRole.setUserId(user.getUserId());
+            userRole.setRoleId(userUpdateRequest.getRoleType());
+            userRole.setCreateTime(new Date());
+            userRole.setUpdateTime(userRole.getCreateTime());
+            this.roleMapper.addUserRole(userRole);
+            // 更新部门
+            // 先删除部门信息
+            this.userDeptMapper.deleteUserDeptByUserId(user.getUserId());
+            // 添加信息部门信息
+            UserDept userDept = new UserDept();
+            userDept.setUserDeptId(IDGeneratorUtil.getNextId());
+            userDept.setUserId(user.getUserId());
+            userDept.setDeptId(userUpdateRequest.getDeptIds());
+            userDept.setCreateTime(new Date());
+            userDept.setUpdateTime(userDept.getCreateTime());
+            this.userDeptMapper.addUserDept(userDept);
             return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_UPDATE_SUCCESS.getMsg());
 
         } catch (Exception e) {
@@ -395,5 +431,41 @@ public class UserServiceImpl implements UserService {
 
             throw new FCException("系统错误");
         }
+    }
+
+    /**
+     * 根据部门Id获取用户
+     *
+     * @param deptId
+     * @return
+     */
+    @Override
+    public FCResponse<List<UserDeptResponse>> getUserByDeptId(Long deptId) {
+
+        if (deptId == null || deptId <= 0){
+            return FCResponse.dataResponse(HttpFcStatus.PARAMSERROR.getCode(),HttpMsg.dept.DEPT_PARAM_ERROR.getMsg(),null);
+
+        }
+
+        List<UserDeptResponse> userDepts = this.userMapper.getUserByDeptId(deptId);
+
+        if (CollectionUtils.isEmpty(userDepts)){
+            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USE_DATA_EMPTY.getMsg(),userDepts);
+        }
+
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_GET_SUCCESS.getMsg(),userDepts);
+    }
+
+    /**
+     * 获取全部用户数量
+     *
+     * @return
+     */
+    @Override
+    public FCResponse<Long> getAllUserCount() {
+
+        Long userCount = this.userMapper.getAllUserCount();
+
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_GET_SUCCESS.getMsg(),userCount);
     }
 }

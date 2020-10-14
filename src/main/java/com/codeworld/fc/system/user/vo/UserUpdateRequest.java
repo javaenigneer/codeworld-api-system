@@ -44,4 +44,11 @@ public class UserUpdateRequest {
     @NotNull(message = "状态为空")
     private Integer userStatus;
 
+    @ApiModelProperty("用户类型")
+    @NotNull(message = "类型为空")
+    private Long roleType;
+
+    @ApiModelProperty("用户部门")
+    @NotNull(message = "用户部门为空")
+    private Long deptIds;
 }

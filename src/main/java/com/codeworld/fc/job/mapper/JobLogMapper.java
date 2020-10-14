@@ -22,4 +22,10 @@ public interface JobLogMapper {
      * @return
      */
     List<JobLog> getAllJobLog(JobLogSearchVO jobLogSearchVO);
+
+    /**
+     * 手动删除任务日志
+     * @param id
+     */
+    void deleteJobLog(Long id);
 }

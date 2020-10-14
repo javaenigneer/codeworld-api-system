@@ -1,6 +1,7 @@
 package com.codeworld.fc.system.user.service;
 
 import com.codeworld.fc.common.response.FCResponse;
+import com.codeworld.fc.system.user.vo.UserLoginOutRequest;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 
 import javax.servlet.http.HttpServletRequest;
@@ -15,4 +16,11 @@ public interface LoginService {
      * @return
      */
     FCResponse<Map<String, Object>> login(UserLoginRequest userLoginRequest, HttpServletRequest request, HttpServletResponse response);
+
+    /**
+     * 退出登录
+     * @param userLoginOutRequest
+     * @return
+     */
+    FCResponse<Void> loginOut(UserLoginOutRequest userLoginOutRequest);
 }

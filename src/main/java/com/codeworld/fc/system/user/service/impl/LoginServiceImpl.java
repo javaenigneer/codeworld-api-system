@@ -7,9 +7,13 @@ import com.codeworld.fc.common.enums.HttpMsg;
 import com.codeworld.fc.common.enums.StatusEnum;
 import com.codeworld.fc.common.exception.FCException;
 import com.codeworld.fc.common.response.FCResponse;
+import com.codeworld.fc.monitor.entity.LoginLog;
+import com.codeworld.fc.monitor.mapper.LoginLogMapper;
+import com.codeworld.fc.monitor.service.LoginLogService;
 import com.codeworld.fc.system.user.entity.User;
 import com.codeworld.fc.system.user.mapper.UserMapper;
 import com.codeworld.fc.system.user.service.LoginService;
+import com.codeworld.fc.system.user.vo.UserLoginOutRequest;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 import com.codeworld.fc.utils.CookieUtils;
 import com.codeworld.fc.utils.SecurityUtils;
@@ -38,6 +42,9 @@ public class LoginServiceImpl implements LoginService {
 
     @Autowired(required = false)
     private AuthenticationManager authenticationManager;
+
+    @Autowired(required = false)
+    private LoginLogService loginLogService;
 
     /**
      * 用户登录操作
@@ -78,6 +85,15 @@ public class LoginServiceImpl implements LoginService {
 
             Map<String, Object> map = new HashMap<>();
 
+            // 保存登录日志
+            LoginLog loginLog = new LoginLog();
+
+            loginLog.setSystemBrowserInfo();
+
+            loginLog.setLoginLogName(authenticationToken.getPrincipal().toString());
+
+            this.loginLogService.addLoginLog(loginLog);
+
             map.put("token", authenticationToken.getToken());
 
             return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_LOGIN_SUCCESS.getMsg(), map);
@@ -88,5 +104,17 @@ public class LoginServiceImpl implements LoginService {
 
             throw new FCException("系统错误");
         }
+    }
+
+    /**
+     * 退出登录
+     *
+     * @param userLoginOutRequest
+     * @return
+     */
+    @Override
+    public FCResponse<Void> loginOut(UserLoginOutRequest userLoginOutRequest) {
+
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_LOGIN_OUT_SUCCESS.getMsg());
     }
 }

@@ -90,4 +90,9 @@
         );
     </insert>
 
+    <!-- 删除语句 -->
+    <!-- 手动删除日志 -->
+    <delete id="deleteJobLog" parameterType="java.lang.Long">
+        delete from codeworld_job_log where t_job_log_id = #{id}
+    </delete>
 </mapper>

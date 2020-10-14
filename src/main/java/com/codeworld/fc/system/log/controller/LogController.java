@@ -10,10 +10,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -38,5 +35,12 @@ public class LogController {
     @ControllerEndpoint(operation = "获取全部日志",exceptionMessage = "日志获取失败")
     public FCResponse<DataResponse<List<Log>>> getAllLog(@RequestBody LogSearchVO logSearchVO){
         return this.logService.getAllLog(logSearchVO);
+    }
+
+    @PostMapping("delete-log")
+    @ApiOperation("删除日志")
+    @ControllerEndpoint(operation = "删除日志",exceptionMessage = "删除日志失败")
+    public FCResponse<Void> deleteLog(@RequestParam("id") Long id){
+        return this.logService.deleteLog(id);
     }
 }

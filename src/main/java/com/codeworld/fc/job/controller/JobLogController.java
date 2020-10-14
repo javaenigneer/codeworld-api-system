@@ -9,10 +9,7 @@ import com.codeworld.fc.job.vo.JobLogSearchVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -36,5 +33,12 @@ public class JobLogController {
     @ControllerEndpoint(operation = "获取全部任务日志", exceptionMessage = "获取全部任务日志失败")
     public FCResponse<DataResponse<List<JobLog>>> getAllJobLog(@RequestBody JobLogSearchVO jobLogSearchVO) {
         return this.jobLogService.getAllJobLog(jobLogSearchVO);
+    }
+
+    @PostMapping("delete-job-log")
+    @ApiOperation("删除任务日志")
+    @ControllerEndpoint(operation = "删除任务日志",exceptionMessage = "删除任务日志失败")
+    public FCResponse<Void> deleteJobLog(@RequestParam("id") Long id){
+        return this.jobLogService.deleteJobLog(id);
     }
 }

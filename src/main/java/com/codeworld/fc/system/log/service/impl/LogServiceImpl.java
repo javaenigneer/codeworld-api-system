@@ -145,6 +145,26 @@ public class LogServiceImpl implements LogService {
         }
     }
 
+    /**
+     * 删除日志
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public FCResponse<Void> deleteLog(Long id) {
+        if (id == null || id <= 0){
+            return FCResponse.dataResponse(HttpFcStatus.PARAMSERROR.getCode(),HttpMsg.log.LOG_PARAM_ERROR.getMsg());
+        }
+        try {
+            this.logMapper.deleteLog(id);
+            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.log.LOG_DELETE_SUCCESS.getMsg());
+        }catch (Exception e){
+            e.printStackTrace();
+            throw new FCException("系统错误");
+        }
+    }
+
     private StringBuilder handleParams(StringBuilder params, Object[] args, List paramNames) {
         try {
             for (int i = 0; i < args.length; i++) {

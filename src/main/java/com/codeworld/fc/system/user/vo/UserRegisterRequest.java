@@ -39,4 +39,8 @@ public class UserRegisterRequest {
     @NotNull(message = "类型为空")
     private Long roleType;
 
+    @ApiModelProperty("用户部门")
+    @NotNull(message = "用户部门为空")
+    private Long deptIds;
+
 }
