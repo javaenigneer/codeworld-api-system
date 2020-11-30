@@ -8,23 +8,32 @@ import com.codeworld.fc.common.enums.StatusEnum;
 import com.codeworld.fc.common.exception.FCException;
 import com.codeworld.fc.common.response.FCResponse;
 import com.codeworld.fc.monitor.entity.LoginLog;
+import com.codeworld.fc.monitor.listener.ActiveUserListener;
 import com.codeworld.fc.monitor.mapper.LoginLogMapper;
 import com.codeworld.fc.monitor.service.LoginLogService;
+import com.codeworld.fc.system.user.dto.UserInfoResponse;
 import com.codeworld.fc.system.user.entity.User;
 import com.codeworld.fc.system.user.mapper.UserMapper;
 import com.codeworld.fc.system.user.service.LoginService;
 import com.codeworld.fc.system.user.vo.UserLoginOutRequest;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 import com.codeworld.fc.utils.CookieUtils;
+import com.codeworld.fc.utils.HttpContextUtil;
 import com.codeworld.fc.utils.SecurityUtils;
+import com.codeworld.fc.utils.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * ClassName LoginServiceImpl
@@ -46,6 +55,11 @@ public class LoginServiceImpl implements LoginService {
     @Autowired(required = false)
     private LoginLogService loginLogService;
 
+    @Autowired(required = false)
+    private StringRedisTemplate stringRedisTemplate;
+
+    private final String USER_INFO = "USER_INFO:USER:ID:";
+
     /**
      * 用户登录操作
      *
@@ -55,11 +69,9 @@ public class LoginServiceImpl implements LoginService {
     @Override
     public FCResponse<Map<String, Object>> login(UserLoginRequest userLoginRequest, HttpServletRequest request, HttpServletResponse response) {
 
-        String token = null;
-
         try {
             // 执行登录
-            JwtAuthenticationToken authenticationToken = SecurityUtils.login(request,userLoginRequest,authenticationManager);
+            JwtAuthenticationToken authenticationToken = SecurityUtils.login(request, userLoginRequest, authenticationManager);
 
 //            // 根据用户名获取用户信息
 //            User user = this.userMapper.getUserByName(userLoginRequest.getUsername());
@@ -94,15 +106,17 @@ public class LoginServiceImpl implements LoginService {
 
             this.loginLogService.addLoginLog(loginLog);
 
+            HttpSession session = request.getSession(true);
+            AtomicInteger count = ActiveUserListener.userCount;
+            session.setMaxInactiveInterval(60 * 30);
             map.put("token", authenticationToken.getToken());
-
             return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_LOGIN_SUCCESS.getMsg(), map);
 
-        } catch (Exception e) {
+        } catch (AuthenticationException e) {
 
             e.printStackTrace();
 
-            throw new FCException("系统错误");
+            throw new FCException(e.getMessage());
         }
     }
 
@@ -114,7 +128,14 @@ public class LoginServiceImpl implements LoginService {
      */
     @Override
     public FCResponse<Void> loginOut(UserLoginOutRequest userLoginOutRequest) {
-
-        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_LOGIN_OUT_SUCCESS.getMsg());
+        HttpServletRequest request = HttpContextUtil.getHttpServletRequest();
+        HttpSession session = request.getSession(true);
+        session.invalidate();
+        AtomicInteger userCount = ActiveUserListener.userCount;
+        String userName = JWTUtil.getUserName(userLoginOutRequest.getToken());
+        // 根据用户名获取用户信息
+        User user = this.userMapper.getUserByName(userName);
+        this.stringRedisTemplate.delete(USER_INFO + user.getUserId());
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_LOGIN_OUT_SUCCESS.getMsg());
     }
 }

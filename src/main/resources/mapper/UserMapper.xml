@@ -68,7 +68,7 @@
     <!-- 根据用户名查询用户-->
     <select id="getUserByName" parameterType="java.lang.String" resultMap="BaseUserMap">
 
-        select u.t_user_id,u.t_user_name from codeworld_user u where t_user_name = #{userName}
+        select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = #{userName}
 
     </select>
 

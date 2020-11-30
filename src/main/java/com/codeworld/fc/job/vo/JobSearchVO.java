@@ -26,7 +26,7 @@ public class JobSearchVO extends PageQuery {
     private String methodName;
 
     @ApiModelProperty("状态")
-    private String status;
+    private Integer status;
 
     @ApiModelProperty("创建时间")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")

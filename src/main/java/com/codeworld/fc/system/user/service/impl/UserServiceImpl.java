@@ -22,10 +22,7 @@ import com.codeworld.fc.system.user.mapper.UserMapper;
 import com.codeworld.fc.system.user.service.UserService;
 import com.codeworld.fc.system.user.vo.*;
 
-import com.codeworld.fc.utils.CookieUtils;
-import com.codeworld.fc.utils.IDGeneratorUtil;
-import com.codeworld.fc.utils.JsonUtils;
-import com.codeworld.fc.utils.TreeBuilder;
+import com.codeworld.fc.utils.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang3.StringUtils;
@@ -70,7 +67,8 @@ public class UserServiceImpl implements UserService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
-    private final String USER_INFO = "USER_INFO";
+    private final String USER_INFO = "USER_INFO:USER:ID:";
+
     /**
      * 获取全部用户
      *
@@ -85,13 +83,13 @@ public class UserServiceImpl implements UserService {
 
         if (CollectionUtils.isEmpty(users)) {
 
-            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), "数据为空", DataResponse.dataResponse(users,0L));
+            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), "数据为空", DataResponse.dataResponse(users, 0L));
 
         }
 
         PageInfo<User> pageInfo = new PageInfo<>(users);
 
-        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), "查询成功", DataResponse.dataResponse(pageInfo.getList(),pageInfo.getTotal()));
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), "查询成功", DataResponse.dataResponse(pageInfo.getList(), pageInfo.getTotal()));
     }
 
     /**
@@ -355,10 +353,21 @@ public class UserServiceImpl implements UserService {
 
             // 用户不存在
             if (user == null) {
-
                 return FCResponse.dataResponse(HttpFcStatus.AUTHFAILCODE.getCode(), HttpMsg.user.USER_AUTH_ERROR.getMsg(), null);
             }
 
+            // 从redis中获取用户信息
+            if (this.stringRedisTemplate.hasKey(USER_INFO + user.getUserId())) {
+                String json = this.stringRedisTemplate.opsForValue().get(USER_INFO + user.getUserId());
+                UserInfoResponse userInfoResponse = JsonUtils.parse(json, UserInfoResponse.class);
+                // 用户已下线
+                if (userInfoResponse.getUserStatus() == StatusEnum.USER_OFFLINE){
+                    return FCResponse.dataResponse(HttpFcStatus.VALIDATEFAILCODE.getCode(),HttpMsg.activeUser.ACTIVE_USER_OFFLINE.getMsg());
+                }
+                // 重新设置时间
+                this.stringRedisTemplate.opsForValue().set(USER_INFO + user.getUserId(), json, 60 * 10, TimeUnit.SECONDS);
+                return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_AUTH_SUCCESS.getMsg(), userInfoResponse);
+            }
             UserInfoResponse userInfoResponse = new UserInfoResponse();
 
             Set<String> roles = new HashSet();
@@ -372,9 +381,9 @@ public class UserServiceImpl implements UserService {
             // 获取用户角色--根据用户Id
             Role role = this.roleMapper.getRoleById(user.getUserId());
 
-            if (role == null){
+            if (role == null) {
 
-                return FCResponse.dataResponse(HttpFcStatus.VALIDATEFAILCODE.getCode(),HttpMsg.user.USER_AUTH_ERROR.getMsg());
+                return FCResponse.dataResponse(HttpFcStatus.VALIDATEFAILCODE.getCode(), HttpMsg.user.USER_AUTH_ERROR.getMsg());
             }
 
             roles.add(role.getRoleCode());
@@ -417,11 +426,13 @@ public class UserServiceImpl implements UserService {
             userInfoResponse.getButtons().addAll(buttonVOS);
 
             userInfoResponse.getMenus().addAll(TreeBuilder.buildTree(menuVOS));
+            userInfoResponse.setLoginIp(IPUtil.getIpAddr(request));
+            userInfoResponse.setLoginLocation(AddressUtil.getCityInfo(IPUtil.getIpAddr(request)));
+            userInfoResponse.setLoginTime(new Date());
+            // 保存到Redis中
+            String json = JsonUtils.serialize(userInfoResponse);
 
-//            // 保存到Redis中
-//            String json = JsonUtils.serialize(userInfoResponse);
-//
-//            this.stringRedisTemplate.opsForValue().set(USER_INFO,json, 60 * 10, TimeUnit.SECONDS);
+            this.stringRedisTemplate.opsForValue().set(USER_INFO + user.getUserId(), json, 60 * 10, TimeUnit.SECONDS);
 
             return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_AUTH_SUCCESS.getMsg(), userInfoResponse);
 
@@ -442,18 +453,18 @@ public class UserServiceImpl implements UserService {
     @Override
     public FCResponse<List<UserDeptResponse>> getUserByDeptId(Long deptId) {
 
-        if (deptId == null || deptId <= 0){
-            return FCResponse.dataResponse(HttpFcStatus.PARAMSERROR.getCode(),HttpMsg.dept.DEPT_PARAM_ERROR.getMsg(),null);
+        if (deptId == null || deptId <= 0) {
+            return FCResponse.dataResponse(HttpFcStatus.PARAMSERROR.getCode(), HttpMsg.dept.DEPT_PARAM_ERROR.getMsg(), null);
 
         }
 
         List<UserDeptResponse> userDepts = this.userMapper.getUserByDeptId(deptId);
 
-        if (CollectionUtils.isEmpty(userDepts)){
-            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USE_DATA_EMPTY.getMsg(),userDepts);
+        if (CollectionUtils.isEmpty(userDepts)) {
+            return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USE_DATA_EMPTY.getMsg(), userDepts);
         }
 
-        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_GET_SUCCESS.getMsg(),userDepts);
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_GET_SUCCESS.getMsg(), userDepts);
     }
 
     /**
@@ -466,6 +477,6 @@ public class UserServiceImpl implements UserService {
 
         Long userCount = this.userMapper.getAllUserCount();
 
-        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.user.USER_GET_SUCCESS.getMsg(),userCount);
+        return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(), HttpMsg.user.USER_GET_SUCCESS.getMsg(), userCount);
     }
 }

@@ -39,14 +39,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.cors().and().csrf().disable()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.OPTIONS, "/").permitAll()
-                .antMatchers("/system-user/user-login").permitAll()
-                .antMatchers("/system-user/user-loginOut").permitAll()
+                .antMatchers("/system-auth/user-login").permitAll()
+                .antMatchers("/system-auth/user-loginOut").permitAll()
                 // swagger
                 .antMatchers("/swagger**/**").permitAll()
                 .antMatchers("/webjars/**").permitAll()
                 .antMatchers("/v2/**").permitAll()
                 .anyRequest().authenticated();
-        http.logout().logoutUrl("/system-user/user-loginOut");
+        http.logout().logoutUrl("/system-auth/user-loginOut");
     }
 
 

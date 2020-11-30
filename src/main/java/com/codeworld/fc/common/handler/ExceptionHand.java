@@ -3,6 +3,9 @@ package com.codeworld.fc.common.handler;
 
 import com.codeworld.fc.common.exception.FCException;
 import com.codeworld.fc.common.response.FCResponse;
+import org.springframework.security.authentication.DisabledException;
+import org.springframework.security.core.AuthenticationException;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -43,6 +46,19 @@ public class ExceptionHand {
         ObjectError objectError = exception.getBindingResult().getAllErrors().get(0);
 
         return FCResponse.validateErrorResponse(objectError.getDefaultMessage());
+    }
+
+    /**
+     * 认证失败异常
+     *
+     * @param exception
+     * @return
+     */
+    @ExceptionHandler(AuthenticationException.class)
+    @ResponseBody
+    public FCResponse<Void> authenticationException(AuthenticationException exception) {
+
+        return FCResponse.authErrorResponse(exception.getMessage());
     }
 
 

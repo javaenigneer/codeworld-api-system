@@ -41,8 +41,7 @@ public class HttpMsg {
 
         USE_DATA_EMPTY("用户数据为空"),
 
-        USER_GET_SUCCESS("用户数据查询成功")
-        ;
+        USER_GET_SUCCESS("用户数据查询成功");
 
         private String msg;
 
@@ -246,6 +245,28 @@ public class HttpMsg {
         private String msg;
 
         dept(String msg) {
+            this.msg = msg;
+        }
+
+        public String getMsg() {
+            return msg;
+        }
+    }
+
+
+    /**
+     * 在线人数相关
+     */
+    public enum activeUser {
+
+        ACTIVE_USER_COUNT_GET_SUCCESS("在线人数数量查询成功"),
+
+        ACTIVE_USER_GET_SUCCESS("在线用户查询查询成功"),
+        ACTIVE_USER_OFFLINE("用户被踢出下线");
+
+        private String msg;
+
+        activeUser(String msg) {
             this.msg = msg;
         }
 

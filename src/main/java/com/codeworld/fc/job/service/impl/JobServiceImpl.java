@@ -166,9 +166,7 @@ public class JobServiceImpl implements JobService {
      */
     @Override
     public FCResponse<Void> addJob(JobRequestDTO jobRequestDTO) {
-
         try {
-
             Job job = new Job();
             BeanUtil.copyProperties(jobRequestDTO,job);
             job.setJobId(IDGeneratorUtil.getNextId());

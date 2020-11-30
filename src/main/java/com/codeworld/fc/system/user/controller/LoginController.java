@@ -3,7 +3,9 @@ package com.codeworld.fc.system.user.controller;
 import com.codeworld.fc.common.annotation.ControllerEndpoint;
 import com.codeworld.fc.common.enums.HttpFcStatus;
 import com.codeworld.fc.common.response.FCResponse;
+import com.codeworld.fc.system.user.dto.UserInfoResponse;
 import com.codeworld.fc.system.user.service.LoginService;
+import com.codeworld.fc.system.user.service.UserService;
 import com.codeworld.fc.system.user.vo.UserLoginOutRequest;
 import com.codeworld.fc.system.user.vo.UserLoginRequest;
 import io.swagger.annotations.Api;
@@ -24,12 +26,14 @@ import java.util.Map;
  * Version 1.0
  **/
 @RestController
-@RequestMapping("system-user")
+@RequestMapping("system-auth")
 @Api(tags = "用户登录接口管理")
 public class LoginController {
 
     @Autowired(required = false)
     private LoginService loginService;
+    @Autowired(required = false)
+    private UserService userService;
 
 
     @PostMapping("user-login")
@@ -46,6 +50,15 @@ public class LoginController {
     @ControllerEndpoint(operation = "退出登录",exceptionMessage = "退出登录失败")
     public FCResponse<Void> LoginOut(@RequestBody UserLoginOutRequest userLoginOutRequest){
         return this.loginService.loginOut(userLoginOutRequest);
+    }
+
+    @PostMapping(value = "get-user-info",produces = "application/json;charset=utf-8")
+    @ApiOperation("获取用户信息")
+    @ControllerEndpoint(operation = "获取用户信息",exceptionMessage = "获取用户信息失败")
+    public FCResponse<UserInfoResponse> getUserInfo(@RequestBody UserLoginRequest userLoginRequest,
+                                                    HttpServletRequest request,
+                                                    HttpServletResponse response) {
+        return this.userService.getUserInfo(userLoginRequest,request,response);
     }
 
 

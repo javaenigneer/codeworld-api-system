@@ -54,15 +54,6 @@ public class UserController {
         return this.userService.getAllUser(userSearchRequest);
     }
 
-    @PostMapping(value = "get-user-info",produces = "application/json;charset=utf-8")
-    @ApiOperation("获取用户信息")
-    @ControllerEndpoint(operation = "获取用户信息",exceptionMessage = "获取用户信息失败")
-    public FCResponse<UserInfoResponse> getUserInfo(@RequestBody UserLoginRequest userLoginRequest,
-                                                    HttpServletRequest request,
-                                                    HttpServletResponse response) {
-        return this.userService.getUserInfo(userLoginRequest,request,response);
-    }
-
     @PostMapping("update-user-status")
     @ApiOperation("修改用户状态")
     @ControllerEndpoint(operation = "修改用户状态",exceptionMessage = "修改用户状态失败")

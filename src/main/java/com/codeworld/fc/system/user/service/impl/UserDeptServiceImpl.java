@@ -40,4 +40,6 @@ public class UserDeptServiceImpl implements UserDeptService {
         List<UserDept> userDepts = this.userDeptMapper.getDeptIdByUserId(userId);
         return FCResponse.dataResponse(HttpFcStatus.DATASUCCESSGET.getCode(),HttpMsg.dept.DEPT_GET_SUCCESS.getMsg(),userDepts);
     }
+
+
 }

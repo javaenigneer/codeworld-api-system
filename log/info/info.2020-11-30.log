@@ -1,0 +1,510 @@
+2020-11-30 20:21:45 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 24536 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-11-30 20:21:45 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-11-30 20:21:49 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 20:21:49 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 20:21:49 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 282ms. Found 0 Redis repository interfaces.
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d4222634] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@43f9dd56' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:21:52 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-11-30 20:21:52 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:21:52 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-30 20:21:52 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-30 20:21:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-30 20:21:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 7164 ms
+2020-11-30 20:21:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-30 20:21:54 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-30 20:21:54 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-30 20:21:54 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-11-30 20:21:54 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-11-30 20:21:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-11-30 20:21:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-11-30 20:21:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-30 20:21:54 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-30 20:21:56 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-11-30 20:21:56 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 20:21:56 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-11-30 20:21:56 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-11-30 20:21:56 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-11-30 20:21:56 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51606738916411'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-11-30 20:21:56 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-11-30 20:21:56 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-11-30 20:21:56 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@259287ac
+2020-11-30 20:21:56 INFO  main p6spy 2020-11-30 20:21:56 | 耗时 3 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-11-30 20:21:57 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 20:21:57 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4269aad7, org.springframework.security.web.context.SecurityContextPersistenceFilter@416b1265, org.springframework.security.web.header.HeaderWriterFilter@3f1158ee, org.springframework.web.filter.CorsFilter@3069a360, org.springframework.security.web.authentication.logout.LogoutFilter@48b2dbc4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@da22aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@338d47b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a4df251, org.springframework.security.web.session.SessionManagementFilter@1a7e799e, org.springframework.security.web.access.ExceptionTranslationFilter@4540c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c0e2ec]
+2020-11-30 20:21:57 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-30 20:21:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 20:21:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:21:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-30 20:21:58 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-11-30 20:21:58 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-11-30 20:21:58 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-11-30 20:21:59 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-11-30 20:21:59 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 15.117 seconds (JVM running for 17.906)
+2020-11-30 20:22:00 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-11-30 20:22:00 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-11-30 20:22:00 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51603962367903"'s failed in-progress jobs.
+2020-11-30 20:22:00 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51606738916411 started.
+2020-11-30 20:22:01 INFO  RMI TCP Connection(9)-192.168.137.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 20:22:01 INFO  RMI TCP Connection(9)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-30 20:22:01 INFO  RMI TCP Connection(9)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 10 ms
+2020-11-30 20:23:30 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1605758430; CNZZDATA30088308=cnzz_eid%3D1226156454-1606183458-%26ntime%3D1606199918] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-30 20:24:56 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 10020 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-11-30 20:24:56 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-11-30 20:24:58 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 20:24:58 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 20:24:58 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 113ms. Found 0 Redis repository interfaces.
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9b2be619] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2a8a4e0c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:24:59 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:25:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-11-30 20:25:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:25:00 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-30 20:25:00 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-30 20:25:00 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-30 20:25:00 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4228 ms
+2020-11-30 20:25:00 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-30 20:25:00 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-30 20:25:01 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-30 20:25:01 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-11-30 20:25:01 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-11-30 20:25:01 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-11-30 20:25:01 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-11-30 20:25:01 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-30 20:25:01 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-30 20:25:02 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-11-30 20:25:02 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 20:25:02 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-11-30 20:25:02 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-11-30 20:25:02 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-11-30 20:25:02 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51606739102178'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-11-30 20:25:02 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-11-30 20:25:02 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-11-30 20:25:02 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@70091872
+2020-11-30 20:25:02 INFO  main p6spy 2020-11-30 20:25:02 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-11-30 20:25:03 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 20:25:04 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@528e5e38, org.springframework.security.web.context.SecurityContextPersistenceFilter@48e74764, org.springframework.security.web.header.HeaderWriterFilter@ac4e690, org.springframework.web.filter.CorsFilter@1984212d, org.springframework.security.web.authentication.logout.LogoutFilter@3b65084e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a3643e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f6e2ad9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16391278, org.springframework.security.web.session.SessionManagementFilter@6c24f61d, org.springframework.security.web.access.ExceptionTranslationFilter@1c6ac73c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4269aad7]
+2020-11-30 20:25:04 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-30 20:25:04 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 20:25:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:25:05 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-30 20:25:05 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-11-30 20:25:05 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-11-30 20:25:05 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-11-30 20:25:05 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-11-30 20:25:05 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 10.563 seconds (JVM running for 12.689)
+2020-11-30 20:25:06 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-11-30 20:25:06 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51606739102178 started.
+2020-11-30 20:25:07 INFO  RMI TCP Connection(8)-192.168.137.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 20:25:07 INFO  RMI TCP Connection(8)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-30 20:25:07 INFO  RMI TCP Connection(8)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 16 ms
+2020-11-30 20:25:14 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1605758430; CNZZDATA30088308=cnzz_eid%3D1226156454-1606183458-%26ntime%3D1606199918] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-30 20:25:21 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739102178_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-11-30 20:25:21 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739102178_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51606738916411"'s failed in-progress jobs.
+2020-11-30 20:29:01 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 9276 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-11-30 20:29:01 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-11-30 20:29:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 20:29:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 20:29:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 91ms. Found 0 Redis repository interfaces.
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$264b8ce0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5a75ec37' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:29:05 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-11-30 20:29:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:29:05 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-30 20:29:05 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-30 20:29:05 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-30 20:29:05 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3762 ms
+2020-11-30 20:29:06 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-30 20:29:06 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-30 20:29:06 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-30 20:29:06 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-11-30 20:29:06 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-11-30 20:29:06 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-11-30 20:29:06 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-11-30 20:29:06 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-30 20:29:06 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-30 20:29:07 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-11-30 20:29:07 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 20:29:07 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-11-30 20:29:07 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-11-30 20:29:07 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-11-30 20:29:07 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51606739347903'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-11-30 20:29:07 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-11-30 20:29:07 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-11-30 20:29:07 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4ae8fb2a
+2020-11-30 20:29:08 INFO  main p6spy 2020-11-30 20:29:08 | 耗时 0 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-11-30 20:29:09 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 20:29:09 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4af70b83, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b65084e, org.springframework.security.web.header.HeaderWriterFilter@4d8056bf, org.springframework.web.filter.CorsFilter@6215366a, org.springframework.security.web.authentication.logout.LogoutFilter@2b1a901d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cae2a97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c421123, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@143413cd, org.springframework.security.web.session.SessionManagementFilter@61dd1c3d, org.springframework.security.web.access.ExceptionTranslationFilter@2729bb71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e981e78]
+2020-11-30 20:29:09 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-30 20:29:09 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 20:29:10 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:29:10 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-30 20:29:10 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-11-30 20:29:10 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-11-30 20:29:10 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-11-30 20:29:10 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-11-30 20:29:10 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 9.65 seconds (JVM running for 11.723)
+2020-11-30 20:29:11 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-11-30 20:29:11 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51606739347903 started.
+2020-11-30 20:29:11 INFO  RMI TCP Connection(3)-192.168.137.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 20:29:11 INFO  RMI TCP Connection(3)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-30 20:29:11 INFO  RMI TCP Connection(3)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 21 ms
+2020-11-30 20:29:22 INFO  http-nio-8888-exec-2 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1605758430; CNZZDATA30088308=cnzz_eid%3D1226156454-1606183458-%26ntime%3D1606199918] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-30 20:29:26 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739347903_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-11-30 20:29:26 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739347903_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51606739102178"'s failed in-progress jobs.
+2020-11-30 20:31:23 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Starting CodeworldVueSystemApplication on DESKTOP-P23KTQ5 with PID 19012 (C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\项目\JAVAEE实践\codeworld-vue-system)
+2020-11-30 20:31:23 INFO  main com.codeworld.fc.CodeworldVueSystemApplication The following profiles are active: test
+2020-11-30 20:31:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 20:31:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 20:31:26 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 109ms. Found 0 Redis repository interfaces.
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$919d7738] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@63dfada0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-30 20:31:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8888 (http)
+2020-11-30 20:31:27 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:31:27 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-11-30 20:31:27 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-30 20:31:27 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-11-30 20:31:27 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 4368 ms
+2020-11-30 20:31:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-检测到并开启了p6spy
+2020-11-30 20:31:28 INFO  main com.zaxxer.hikari.HikariDataSource base - Starting...
+2020-11-30 20:31:28 INFO  main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2020-11-30 20:31:28 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Starting...
+2020-11-30 20:31:28 INFO  main com.zaxxer.hikari.HikariDataSource quartz - Start completed.
+2020-11-30 20:31:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 初始共加载 2 个数据源
+2020-11-30 20:31:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 quartz 成功
+2020-11-30 20:31:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 动态数据源-加载 base 成功
+2020-11-30 20:31:28 INFO  main com.baomidou.dynamic.datasource.DynamicRoutingDataSource 当前的默认数据源是单数据源，数据源名为 base
+2020-11-30 20:31:29 INFO  main org.quartz.impl.StdSchedulerFactory Using default implementation for ThreadExecutor
+2020-11-30 20:31:29 INFO  main org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 20:31:29 INFO  main org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+2020-11-30 20:31:29 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore Using db table-based data access locking (synchronization).
+2020-11-30 20:31:29 INFO  main org.springframework.scheduling.quartz.LocalDataSourceJobStore JobStoreCMT initialized.
+2020-11-30 20:31:29 INFO  main org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'FC_Scheduler' with instanceId 'DESKTOP-P23KTQ51606739489700'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2020-11-30 20:31:29 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler 'FC_Scheduler' initialized from an externally provided properties instance.
+2020-11-30 20:31:29 INFO  main org.quartz.impl.StdSchedulerFactory Quartz scheduler version: 2.3.2
+2020-11-30 20:31:29 INFO  main org.quartz.core.QuartzScheduler JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@54326e9
+2020-11-30 20:31:29 INFO  main p6spy 2020-11-30 20:31:29 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC;
+2020-11-30 20:31:30 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-30 20:31:31 INFO  main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70139a81, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c421123, org.springframework.security.web.header.HeaderWriterFilter@53ba7997, org.springframework.web.filter.CorsFilter@999b951, org.springframework.security.web.authentication.logout.LogoutFilter@5c0e2ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a631049, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@769b0752, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60f9dc7e, org.springframework.security.web.session.SessionManagementFilter@20be890d, org.springframework.security.web.access.ExceptionTranslationFilter@7e50eeb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@143413cd]
+2020-11-30 20:31:31 INFO  main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-30 20:31:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 20:31:32 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8888"]
+2020-11-30 20:31:32 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8888 (http) with context path ''
+2020-11-30 20:31:32 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2020-11-30 20:31:32 INFO  main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2020-11-30 20:31:32 INFO  main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2020-11-30 20:31:33 INFO  main org.springframework.scheduling.quartz.SchedulerFactoryBean Will start Quartz Scheduler [FC_Scheduler] in 1 seconds
+2020-11-30 20:31:33 INFO  main com.codeworld.fc.CodeworldVueSystemApplication Started CodeworldVueSystemApplication in 10.341 seconds (JVM running for 11.95)
+2020-11-30 20:31:34 INFO  Quartz Scheduler [FC_Scheduler] org.springframework.scheduling.quartz.SchedulerFactoryBean Starting Quartz Scheduler now, after delay of 1 seconds
+2020-11-30 20:31:34 INFO  Quartz Scheduler [FC_Scheduler] org.quartz.core.QuartzScheduler Scheduler FC_Scheduler_$_DESKTOP-P23KTQ51606739489700 started.
+2020-11-30 20:31:34 INFO  RMI TCP Connection(3)-192.168.137.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 20:31:34 INFO  RMI TCP Connection(3)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-11-30 20:31:34 INFO  RMI TCP Connection(3)-192.168.137.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 17 ms
+2020-11-30 20:31:39 INFO  http-nio-8888-exec-3 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1579774133; __utma=111872281.831053985.1582861814.1582875770.1584267755.5; Idea-aafc89f7=a7b3efd7-3315-46db-8387-b3eb7ff7bbf7; Webstorm-5dc33a3f=3e27dac4-926d-43b5-b044-1c33978c0955; UM_distinctid=175696d974350e-0afd509e49cf86-303464-e1000-175696d974430a; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1605758430; CNZZDATA30088308=cnzz_eid%3D1226156454-1606183458-%26ntime%3D1606199918] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-30 20:31:39 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:39 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:31:39 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:39 | 耗时 1 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 434870;
+2020-11-30 20:31:39 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:39 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:42 | 耗时 4 ms | SQL 语句：
+insert into codeworld_login_log ( t_login_log_id, t_login_log_name, t_login_log_time, t_login_log_location, t_login_log_ip, t_login_log_system, t_login_log_browser ) values ( 555091, '1111', '2020-11-30T20:31:42.409+0800', '', '127.0.0.1', 'Windows 10', 'Chrome 87' );;
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:42 | 耗时 4 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 973646, NULL, '用户登录', 3290, '/system-auth/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@389f7523] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@340ece5f', '127.0.0.1', '', '2020-11-30T20:31:42.469+0800' );;
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:31:42 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:31:42 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 434870;
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:31:42 | 耗时 1 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-11-30 20:31:42 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:31:42 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 352980, '1111', '获取用户信息', 209, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@59a044d8] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@5fd62faf', '127.0.0.1', '', '2020-11-30T20:31:42.784+0800' );;
+2020-11-30 20:31:43 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:31:43 | 耗时 0 ms | SQL 语句：
+select count(t_user_id) from codeworld_user;
+2020-11-30 20:31:43 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:31:43 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 72990, '1111', '获取在线用户数量', 9, '/system-monitor/get-active-user-count', '', '127.0.0.1', '', '2020-11-30T20:31:43.221+0800' );;
+2020-11-30 20:31:43 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:31:43 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 65442, '1111', '获取全部用户数量', 13, '/system-user/get-all-user-count', '', '127.0.0.1', '', '2020-11-30T20:31:43.226+0800' );;
+2020-11-30 20:31:47 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:31:47 | 耗时 49 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 213470, '1111', '查询请求', 12, '/system-monitor/get-http-trace', ' httpTraceSearchVO: HttpTraceSearchVO(url=null, method=null)', '127.0.0.1', '', '2020-11-30T20:31:47.466+0800' );;
+2020-11-30 20:31:49 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739489700_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: detected 1 failed or restarted instances.
+2020-11-30 20:31:49 INFO  QuartzScheduler_FC_Scheduler-DESKTOP-P23KTQ51606739489700_ClusterManager org.springframework.scheduling.quartz.LocalDataSourceJobStore ClusterManager: Scanning for instance "DESKTOP-P23KTQ51606739347903"'s failed in-progress jobs.
+2020-11-30 20:31:49 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:49 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_job;
+2020-11-30 20:31:49 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:49 | 耗时 0 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC LIMIT 10 ;
+2020-11-30 20:31:49 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:31:49 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 685184, '1111', '获取全部任务', 83, '/system-job/get-all-job', ' jobSearchVO: JobSearchVO(beanName=null, methodName=null, status=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:31:49.939+0800' );;
+2020-11-30 20:32:13 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:32:13 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:32:14 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:32:14 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 700318, '1111', '获取用户信息', 81, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@fadb6cc] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@43f910a9', '127.0.0.1', '', '2020-11-30T20:32:14.067+0800' );;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:34:19 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:34:19 | 耗时 22 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 610394, '1111', '获取用户信息', 13, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5cf12066] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@31d6457c', '127.0.0.1', '', '2020-11-30T20:34:19.467+0800' );;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:34:19 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:34:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:34:19 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:34:19 | 耗时 50 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 765703, '1111', '获取全部用户', 10, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:34:19.920+0800' );;
+2020-11-30 20:34:19 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:34:19 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 722876, '1111', '获取部门树', 77, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:34:19.988+0800' );;
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:35:09 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:35:09 | 耗时 31 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 326245, '1111', '获取用户信息', 19, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1ad69ffb] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@908ab8d', '127.0.0.1', '', '2020-11-30T20:35:09.278+0800' );;
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:09 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:09 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 631753, '1111', '获取用户信息', 18, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@53272e63] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@32390e9a', '127.0.0.1', '', '2020-11-30T20:35:09.403+0800' );;
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:09 | 耗时 0 ms | SQL 语句：
+select count(t_user_id) from codeworld_user;
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:35:09 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 306241, '1111', '获取在线用户数量', 1, '/system-monitor/get-active-user-count', '', '127.0.0.1', '', '2020-11-30T20:35:09.825+0800' );;
+2020-11-30 20:35:09 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:09 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 65121, '1111', '获取全部用户数量', 5, '/system-user/get-all-user-count', '', '127.0.0.1', '', '2020-11-30T20:35:09.831+0800' );;
+2020-11-30 20:35:10 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:10 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:10 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:10 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:35:10 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:10 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:10 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:10 | 耗时 49 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 692844, '1111', '获取部门树', 10, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:10.253+0800' );;
+2020-11-30 20:35:10 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:10 | 耗时 47 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 802270, '1111', '获取全部用户', 8, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:35:10.253+0800' );;
+2020-11-30 20:35:13 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:13 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:35:13 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:35:13 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:35:13 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:13 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:35:13 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 305066, '1111', '获取全部用户', 7, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:35:13.488+0800' );;
+2020-11-30 20:35:13 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:13 | 耗时 4 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 411818, '1111', '获取部门树', 7, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:13.485+0800' );;
+2020-11-30 20:35:14 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:35:14 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-11-30 20:35:14 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:14 | 耗时 1 ms | SQL 语句：
+SELECT count(0) FROM codeworld_role;
+2020-11-30 20:35:14 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:14 | 耗时 1 ms | SQL 语句：
+select * from codeworld_role order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:16 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:35:16 | 耗时 0 ms | SQL 语句：
+select * from codeworld_menu;
+2020-11-30 20:35:17 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:17 | 耗时 1 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:17 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:17 | 耗时 51 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 517611, '1111', '获取部门树', 16, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:17.232+0800' );;
+2020-11-30 20:35:19 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:19 | 耗时 1 ms | SQL 语句：
+select * from codeworld_menu;
+2020-11-30 20:35:20 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:20 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:35:20 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:35:20 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:20 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 63572, '1111', '获取部门树', 13, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:20.398+0800' );;
+2020-11-30 20:35:20 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:35:20 | 耗时 1 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:20 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:35:20 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 484413, '1111', '获取全部用户', 27, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:35:20.426+0800' );;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:31 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:31 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 131981, '1111', '获取用户信息', 12, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5f6824f9] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@4c48676f', '127.0.0.1', '', '2020-11-30T20:35:31.372+0800' );;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:35:31 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:35:31 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:35:31 | 耗时 28 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 258230, '1111', '获取全部用户', 9, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:35:31.832+0800' );;
+2020-11-30 20:35:31 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:31 | 耗时 29 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 339051, '1111', '获取部门树', 8, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:31.831+0800' );;
+2020-11-30 20:35:33 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:33 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:33 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:33 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 733387, '1111', '获取部门树', 8, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:33.700+0800' );;
+2020-11-30 20:35:34 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:34 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_job;
+2020-11-30 20:35:34 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:34 | 耗时 1 ms | SQL 语句：
+select * from codeworld_job order by t_job_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:34 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:34 | 耗时 52 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 385057, '1111', '获取全部任务', 15, '/system-job/get-all-job', ' jobSearchVO: JobSearchVO(beanName=null, methodName=null, status=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:35:34.942+0800' );;
+2020-11-30 20:35:35 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:35:35 | 耗时 7 ms | SQL 语句：
+SELECT count(0) FROM codeworld_job_log;
+2020-11-30 20:35:35 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:35:35 | 耗时 2 ms | SQL 语句：
+select * from codeworld_job_log order by t_job_log_create_time DESC LIMIT 10 ;
+2020-11-30 20:35:35 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:35:35 | 耗时 5 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 914142, '1111', '获取全部任务日志', 60, '/system-job-log/get-all-job-log', ' jobLogSearchVO: JobLogSearchVO(jobBeanName=null, jobMethodName=null, status=null, startTime=null, endTime=null)', '127.0.0.1', '', '2020-11-30T20:35:35.873+0800' );;
+2020-11-30 20:35:37 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:35:37 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:35:37 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:35:37 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 477734, '1111', '获取部门树', 6, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:35:37.050+0800' );;
+2020-11-30 20:35:37 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:37 | 耗时 1 ms | SQL 语句：
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 1 order by cu.t_create_time DESC;
+2020-11-30 20:35:37 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:37 | 耗时 50 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 861246, '1111', '根据部门Id获取用户信息', 8, '/system-user/get-user-dept-id', ' deptId: "1"', '127.0.0.1', '', '2020-11-30T20:35:37.872+0800' );;
+2020-11-30 20:35:39 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:39 | 耗时 0 ms | SQL 语句：
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 603358 order by cu.t_create_time DESC;
+2020-11-30 20:35:39 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:39 | 耗时 33 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 28581, '1111', '根据部门Id获取用户信息', 5, '/system-user/get-user-dept-id', ' deptId: "603358"', '127.0.0.1', '', '2020-11-30T20:35:39.533+0800' );;
+2020-11-30 20:35:39 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:39 | 耗时 0 ms | SQL 语句：
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 999440 order by cu.t_create_time DESC;
+2020-11-30 20:35:40 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:40 | 耗时 49 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 340147, '1111', '根据部门Id获取用户信息', 3, '/system-user/get-user-dept-id', ' deptId: "999440"', '127.0.0.1', '', '2020-11-30T20:35:39.987+0800' );;
+2020-11-30 20:35:40 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:35:40 | 耗时 0 ms | SQL 语句：
+select cu.t_user_id AS userId, cu.t_user_name As userName, cu.t_user_email AS userEmail, cu.t_user_phone AS userPhone, cu.t_user_status AS userStatus, cu.t_create_time AS createTime, cu.t_update_time AS updateTime, cd.t_dept_name AS deptName from codeworld_user_dept cud left join codeworld_user cu on cud.t_user_id = cu.t_user_id left join codeworld_dept cd on cud.t_dept_id = cd.t_dept_id where cud.t_dept_id = 2 order by cu.t_create_time DESC;
+2020-11-30 20:35:40 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:35:40 | 耗时 51 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 589663, '1111', '根据部门Id获取用户信息', 5, '/system-user/get-user-dept-id', ' deptId: "2"', '127.0.0.1', '', '2020-11-30T20:35:40.335+0800' );;
+2020-11-30 20:35:42 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:35:42 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 708895, '1111', '查询请求', 8, '/system-monitor/get-http-trace', ' httpTraceSearchVO: HttpTraceSearchVO(url=null, method=null)', '127.0.0.1', '', '2020-11-30T20:35:42.397+0800' );;
+2020-11-30 20:35:43 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:43 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_login_log;
+2020-11-30 20:35:43 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:43 | 耗时 0 ms | SQL 语句：
+select * from codeworld_login_log order by t_login_log_time DESC LIMIT 10 ;
+2020-11-30 20:35:43 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:35:43 | 耗时 53 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 751522, '1111', '获取登录日志', 15, '/system-login-log/get-all-login-log', ' loginLogSearchVO: LoginLogSearchVO(loginLogName=null, startTime=null, endTime=null)', '127.0.0.1', '', '2020-11-30T20:35:43.424+0800' );;
+2020-11-30 20:35:44 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:35:44 | 耗时 10 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 605068, '1111', '获取全部在线用户信息', 29, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:35:44.157+0800' );;
+2020-11-30 20:35:46 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:46 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:35:46 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:35:46 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 185313, '1111', '获取用户信息', 15, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@62f64126] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@5ab59aff', '127.0.0.1', '', '2020-11-30T20:35:46.912+0800' );;
+2020-11-30 20:35:47 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:35:47 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 495310, '1111', '获取全部在线用户信息', 24, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:35:47.485+0800' );;
+2020-11-30 20:35:51 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:51 | 耗时 1 ms | SQL 语句：
+SELECT count(0) FROM codeworld_login_log;
+2020-11-30 20:35:51 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:51 | 耗时 1 ms | SQL 语句：
+select * from codeworld_login_log order by t_login_log_time DESC LIMIT 10 ;
+2020-11-30 20:35:51 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:35:51 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 186266, '1111', '获取登录日志', 23, '/system-login-log/get-all-login-log', ' loginLogSearchVO: LoginLogSearchVO(loginLogName=null, startTime=null, endTime=null)', '127.0.0.1', '', '2020-11-30T20:35:51.445+0800' );;
+2020-11-30 20:35:53 INFO  http-nio-8888-exec-3 p6spy 2020-11-30 20:35:53 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 322102, '1111', '查询请求', 11, '/system-monitor/get-http-trace', ' httpTraceSearchVO: HttpTraceSearchVO(url=null, method=null)', '127.0.0.1', '', '2020-11-30T20:35:53.247+0800' );;
+2020-11-30 20:35:56 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:35:56 | 耗时 49 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 725276, '1111', '获取全部在线用户信息', 15, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:35:56.575+0800' );;
+2020-11-30 20:36:37 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:36:37 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:36:37 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:36:37 | 耗时 41 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 266668, '1111', '获取用户信息', 14, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@41d6d427] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@67bd323f', '127.0.0.1', '', '2020-11-30T20:36:37.495+0800' );;
+2020-11-30 20:36:38 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:38 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 546378, '1111', '获取全部在线用户信息', 17, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:36:38.571+0800' );;
+2020-11-30 20:36:41 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:36:41 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:36:41 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:36:41 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 934147, '1111', '退出登录', 9, '/system-auth/user-login-out', ' userLoginOutRequest: UserLoginOutRequest(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgyNzAwLCJjcmVhdGVkIjoxNjA2NzM5NTAwMTUxLCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.IMwe5bGFx_etAgbvJMuBFnfxk8QIEJe-i7YkMKxtoHnmaWKVu9veNiXFgifNdW_hkjnF0u8MliX07LYbzt8afQ)', '127.0.0.1', '', '2020-11-30T20:36:41.490+0800' );;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 434870;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:48 | 耗时 1 ms | SQL 语句：
+insert into codeworld_login_log ( t_login_log_id, t_login_log_name, t_login_log_time, t_login_log_location, t_login_log_ip, t_login_log_system, t_login_log_browser ) values ( 199686, '1111', '2020-11-30T20:36:48.478+0800', '', '127.0.0.1', 'Windows 10', 'Chrome 87' );;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:48 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 400089, NULL, '用户登录', 360, '/system-auth/user-login', ' userLoginRequest: UserLoginRequest(username=1111, password=123456, token=null) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@35ab2d86] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@2fec4fda', '127.0.0.1', '', '2020-11-30T20:36:48.484+0800' );;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select cr.t_role_id, cr.t_role_name, cr.t_role_code, cr.t_role_remarks, cr.t_create_time, cr.t_update_time from codeworld_role AS cr left join codeworld_user_role AS cur on cur.t_role_id = cr.t_role_id where cur.t_user_id = 434870;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:36:48 | 耗时 0 ms | SQL 语句：
+select cm.t_menu_id, cm.t_parent_id, cm.t_menu_url, cm.t_menu_resources, cm.t_menu_name, cm.t_menu_type, cm.t_menu_remarks, cm.t_menu_sort_no, cm.t_create_time, cm.t_update_time from codeworld_menu cm left join codeworld_role_menu crm on crm.t_menu_id = cm.t_menu_id where crm.t_role_id = 1;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-10 p6spy 2020-11-30 20:36:48 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 498605, '1111', '获取用户信息', 20, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgzMDA4LCJjcmVhdGVkIjoxNjA2NzM5ODA4NDc3LCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.LOec51loJJld_v7CHkBCA-T6c3IXL4E5_SVEyNTJUctlIRp77KX2_jPROJjL75NrO4kwo0OgAuUGy81JdLyzXw) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@40f16011] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@46aad3cf', '127.0.0.1', '', '2020-11-30T20:36:48.536+0800' );;
+2020-11-30 20:36:48 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:36:48 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 666652, '1111', '获取全部在线用户信息', 20, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:36:48.857+0800' );;
+2020-11-30 20:36:50 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:50 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_login_log;
+2020-11-30 20:36:50 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:50 | 耗时 0 ms | SQL 语句：
+select * from codeworld_login_log order by t_login_log_time DESC LIMIT 10 ;
+2020-11-30 20:36:50 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:50 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 198161, '1111', '获取登录日志', 8, '/system-login-log/get-all-login-log', ' loginLogSearchVO: LoginLogSearchVO(loginLogName=null, startTime=null, endTime=null)', '127.0.0.1', '', '2020-11-30T20:36:50.967+0800' );;
+2020-11-30 20:36:53 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:36:53 | 耗时 0 ms | SQL 语句：
+SELECT count(0) FROM codeworld_user;
+2020-11-30 20:36:53 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:36:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_user order by t_create_time DESC LIMIT 10 ;
+2020-11-30 20:36:53 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:53 | 耗时 0 ms | SQL 语句：
+select * from codeworld_dept;
+2020-11-30 20:36:53 INFO  http-nio-8888-exec-1 p6spy 2020-11-30 20:36:53 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 442771, '1111', '获取部门树', 4, '/system-dept/tree-dept', '', '127.0.0.1', '', '2020-11-30T20:36:53.297+0800' );;
+2020-11-30 20:36:53 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:36:53 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 928937, '1111', '获取全部用户', 8, '/system-user/get-all-user', ' userSearchRequest: UserSearchRequest(page=1, limit=10, userName=null, userEmail=null, userPhone=null, userStatus=null, createTime=null, updateTime=null)', '127.0.0.1', '', '2020-11-30T20:36:53.307+0800' );;
+2020-11-30 20:36:54 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:36:54 | 耗时 0 ms | SQL 语句：
+select count(t_user_id) from codeworld_user;
+2020-11-30 20:36:54 INFO  http-nio-8888-exec-2 p6spy 2020-11-30 20:36:54 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 289777, '1111', '获取全部用户数量', 9, '/system-user/get-all-user-count', '', '127.0.0.1', '', '2020-11-30T20:36:54.535+0800' );;
+2020-11-30 20:36:54 INFO  http-nio-8888-exec-4 p6spy 2020-11-30 20:36:54 | 耗时 3 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 626024, '1111', '获取在线用户数量', 6, '/system-monitor/get-active-user-count', '', '127.0.0.1', '', '2020-11-30T20:36:54.538+0800' );;
+2020-11-30 20:36:57 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:57 | 耗时 0 ms | SQL 语句：
+select u.t_user_id,u.t_user_name,u.t_user_status, t_user_email from codeworld_user u where t_user_name = '1111';
+2020-11-30 20:36:57 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:36:57 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 312816, '1111', '获取用户信息', 32, '/system-auth/get-user-info', ' userLoginRequest: UserLoginRequest(username=null, password=null, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMTExIiwiZXhwIjoxNjA2NzgzMDA4LCJjcmVhdGVkIjoxNjA2NzM5ODA4NDc3LCJhdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiYWN0aXZlLXVzZXIifSx7ImF1dGhvcml0eSI6ImFjdGl2ZTpvZmZsaW5lIn0seyJhdXRob3JpdHkiOiJjaGF0In0seyJhdXRob3JpdHkiOiJkZXB0In0seyJhdXRob3JpdHkiOiJodHRwIn0seyJhdXRob3JpdHkiOiJqb2IifSx7ImF1dGhvcml0eSI6ImpvYi1sb2cifSx7ImF1dGhvcml0eSI6ImxvZ2luLWxvZyJ9LHsiYXV0aG9yaXR5IjoibG9naW4tbG9nOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoibWVudSJ9LHsiYXV0aG9yaXR5IjoibWVudTphZGQifSx7ImF1dGhvcml0eSI6Im1lbnU6ZGVsZXRlIn0seyJhdXRob3JpdHkiOiJtZW51OmVkaXQifSx7ImF1dGhvcml0eSI6InJvbGUifSx7ImF1dGhvcml0eSI6InJvbGU6YWRkIn0seyJhdXRob3JpdHkiOiJyb2xlOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5Ijoicm9sZTplZGl0In0seyJhdXRob3JpdHkiOiJyb2xlU2V0dGluZyJ9LHsiYXV0aG9yaXR5Ijoic3lzdGVtSm9iIn0seyJhdXRob3JpdHkiOiJzeXN0ZW1NYW5hZ2UifSx7ImF1dGhvcml0eSI6InN5c3RlbU1vbml0b3IifSx7ImF1dGhvcml0eSI6InVzZXIifSx7ImF1dGhvcml0eSI6InVzZXI6YWRkIn0seyJhdXRob3JpdHkiOiJ1c2VyOmRlbGV0ZSJ9LHsiYXV0aG9yaXR5IjoidXNlcjplZGl0In0seyJhdXRob3JpdHkiOiJ1c2VyOmVuYWJsZSJ9XX0.LOec51loJJld_v7CHkBCA-T6c3IXL4E5_SVEyNTJUctlIRp77KX2_jPROJjL75NrO4kwo0OgAuUGy81JdLyzXw) request: SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2c75cc24] response: org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterResponse@6593df61', '127.0.0.1', '', '2020-11-30T20:36:57.677+0800' );;
+2020-11-30 20:36:58 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:36:58 | 耗时 0 ms | SQL 语句：
+select count(t_user_id) from codeworld_user;
+2020-11-30 20:36:58 INFO  http-nio-8888-exec-9 p6spy 2020-11-30 20:36:58 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 443053, '1111', '获取在线用户数量', 1, '/system-monitor/get-active-user-count', '', '127.0.0.1', '', '2020-11-30T20:36:58.116+0800' );;
+2020-11-30 20:36:58 INFO  http-nio-8888-exec-7 p6spy 2020-11-30 20:36:58 | 耗时 2 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 843068, '1111', '获取全部用户数量', 2, '/system-user/get-all-user-count', '', '127.0.0.1', '', '2020-11-30T20:36:58.115+0800' );;
+2020-11-30 20:37:00 INFO  http-nio-8888-exec-5 p6spy 2020-11-30 20:37:00 | 耗时 1 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 454339, '1111', '获取全部在线用户信息', 46, '/system-monitor/get-all-active-user', '', '127.0.0.1', '', '2020-11-30T20:37:00.823+0800' );;
+2020-11-30 20:38:00 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:38:00 | 耗时 0 ms | SQL 语句：
+select count(t_user_id) from codeworld_user;
+2020-11-30 20:38:00 INFO  http-nio-8888-exec-6 p6spy 2020-11-30 20:38:00 | 耗时 46 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 784251, '1111', '获取在线用户数量', 2, '/system-monitor/get-active-user-count', '', '127.0.0.1', '', '2020-11-30T20:38:00.774+0800' );;
+2020-11-30 20:38:00 INFO  http-nio-8888-exec-8 p6spy 2020-11-30 20:38:00 | 耗时 58 ms | SQL 语句：
+insert into codeworld_log (t_log_id, t_log_operation_username, t_log_operation, t_log_time, t_log_method, t_log_params, t_log_ip, t_log_location,t_log_create_time) values ( 783906, '1111', '获取全部用户数量', 9, '/system-user/get-all-user-count', '', '127.0.0.1', '', '2020-11-30T20:38:00.771+0800' );;

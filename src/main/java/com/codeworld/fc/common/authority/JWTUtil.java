@@ -49,33 +49,6 @@ public class JWTUtil {
      */
     private static final long EXPIRE_TIME = 12 * 60 * 60 * 1000;
 
-    /**
-     * 检验Token是否正确
-     *
-     * @param token
-     * @param username
-     * @param password
-     * @return
-     */
-    public static boolean verify(String token, String username, String password) {
-
-        try {
-
-            Algorithm algorithm = Algorithm.HMAC256(password);
-
-            JWTVerifier jwtVerifier = JWT.require(algorithm).withClaim("username", username).build();
-
-            LOGGER.info("token is valid");
-
-            return true;
-
-        } catch (Exception e) {
-
-            e.printStackTrace();
-
-            return false;
-        }
-    }
 
     /**
      * 生成token

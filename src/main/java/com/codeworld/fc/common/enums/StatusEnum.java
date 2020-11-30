@@ -14,6 +14,9 @@ public class StatusEnum {
     // 用户被禁用
     public static final Integer USER_DISABLE = 0;
 
+    // 用户下线
+    public static final Integer USER_OFFLINE = -1;
+
     // 任务成功状态1
     public static final Integer JOB_SUCCESS = 1;
 
